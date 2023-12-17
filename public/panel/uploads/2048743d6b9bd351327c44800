@@ -1,0 +1,1774 @@
+{
+  "homepagebanners": [
+    {
+      "_id": "64febee7a3e3b476d78e05e3",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/homepage-banners/1694416615591-5f0d422ab2f1569ce1690229d7393b23.jpg",
+      "title": "Alibaug Beach",
+      "ctaUrl": "",
+      "createdAt": "2023-09-11T07:16:55.928Z",
+      "updatedAt": "2023-09-11T07:16:55.928Z",
+      "__v": 0
+    },
+    {
+      "_id": "64febefba3e3b476d78e05e7",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/homepage-banners/1694416635081-b96efce3e0d3c5e6e3a57c0c42a3cfeb.jpg",
+      "title": "Lonavala",
+      "ctaUrl": "",
+      "createdAt": "2023-09-11T07:17:15.266Z",
+      "updatedAt": "2023-09-11T07:17:15.266Z",
+      "__v": 0
+    },
+    {
+      "_id": "64febf2da3e3b476d78e0674",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/homepage-banners/1694416685186-f03b4e34ad12a3de1b4a4f8cfd4983d8.jpg",
+      "title": "Karjat",
+      "ctaUrl": "",
+      "createdAt": "2023-09-11T07:18:05.400Z",
+      "updatedAt": "2023-09-11T07:18:05.400Z",
+      "__v": 0
+    },
+    {
+      "_id": "64febf3ca3e3b476d78e0678",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/homepage-banners/1694416700355-272567de8ba806820a2c3f084d6ff4a5.jpg",
+      "title": "Lonavala",
+      "ctaUrl": "",
+      "createdAt": "2023-09-11T07:18:20.611Z",
+      "updatedAt": "2023-09-11T07:18:20.611Z",
+      "__v": 0
+    },
+    {
+      "_id": "64febf46a3e3b476d78e067c",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/homepage-banners/1694416710675-432cf3ed7a4f4a4c3434dbeec629d339.jpg",
+      "title": "Lonavala",
+      "ctaUrl": "",
+      "createdAt": "2023-09-11T07:18:30.866Z",
+      "updatedAt": "2023-09-11T07:18:30.866Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fec69fa3e3b476d78e0bb4",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/homepage-banners/1694418590820-9c3d1645a12693faafd3869584c65c0c.jpg",
+      "title": "Goa",
+      "ctaUrl": "",
+      "createdAt": "2023-09-11T07:49:51.129Z",
+      "updatedAt": "2023-09-11T07:49:51.129Z",
+      "__v": 0
+    }
+  ],
+  "settings": [
+    {
+      "website": {
+        "info": {
+          "inquiryMail": "support@beingstay.com",
+          "inquiryPhone": "+918602818849",
+          "inquiryPhone2": " +919479645508",
+          "whatsappPhone": "+918602818849",
+          "address": "House No 100 Gokuldham Colony, Dhandariya Road, Neemuch,Madhya Pradesh - 458441",
+          "footerPara": "<p>BeingStay, your gateway to exquisite villa experiences in India. We curate a collection of handpicked villas that redefine luxury and comfort. Immerse yourself in the beauty of India's diverse landscapes while enjoying the warmth of home-like hospitality.</p>"
+        },
+        "seoInfo": {
+          "title": "Luxury Villas & Retreats in India | BeingStay",
+          "metaDesc": "Explore luxury villas & retreats in India with BeingStay. Book your perfect getaway for comfort, tranquility & impeccable service"
+        },
+        "name": "BeingStay",
+        "companyName": "BeingStay",
+        "lightLogo": "/panel/images/logoLight.png",
+        "emailLogo": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/website/1694236899133-71798e7ecf6af01b08d55296cd961cd5.jpeg",
+        "darkLogo": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/website/1694500312169-efbeaddbd6bdf551dfd8e5ee229d8315.jpg",
+        "fevicon": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/website/1694236899133-71798e7ecf6af01b08d55296cd961cd5.jpeg",
+        "currencySymbol": "₹"
+      },
+      "policy": {
+        "refundPolicy": "<p>At BeingStay by Bye Rooms, our mission is to provide you with exceptional villa experiences across India. We understand that sometimes, plans may need to change. Our refund policy is designed to be fair and transparent, ensuring that you have peace of mind when booking with us. Please review the following refund policy carefully:<br>&nbsp;</p><p><strong>1. Cancellation and Refund Eligibility:</strong></p><ul><li>Refund eligibility is determined by the specific villa's cancellation policy, which is clearly stated during the booking process. BeingStay offers three types of cancellation policies: Flexible, Moderate, and Strict.</li></ul><p><br><strong>2. Flexible Cancellation Policy:</strong></p><ul><li>If you cancel your reservation up to 7 days before your check-in date, you will receive a full refund, including any service fees.</li><li>If you cancel within 7 days of your check-in date, the first night's stay and service fees are non-refundable.</li></ul><p><br><strong>3. Moderate Cancellation Policy:</strong></p><ul><li>If you cancel your reservation up to 14 days before your check-in date, you will receive a full refund, including any service fees.</li><li>If you cancel within 14 days of your check-in date, the first night's stay and service fees are non-refundable.</li></ul><p><br><strong>4. Strict Cancellation Policy:</strong></p><ul><li>If you cancel your reservation up to 30 days before your check-in date, you will receive a full refund, including any service fees.</li><li>If you cancel within 30 days of your check-in date, the first night's stay and service fees are non-refundable.</li></ul><p><br><strong>5. Processing Fees:</strong> Please be aware that any applicable processing fees are non-refundable.</p><p><br><strong>6. Security Deposits:</strong> Some villas may require a security deposit. The refund of the security deposit is subject to the villa owner's policies and may be returned within a specified time frame after check-out, provided there are no damages or violations of the villa's rules.</p><p><br><strong>7. Refund Process:</strong></p><ul><li>Refunds will be processed through the original payment method used for booking.</li><li>The timing of the refund may vary depending on your payment provider and method.</li></ul><p><br><strong>8. Extenuating Circumstances:</strong> In exceptional cases, such as natural disasters or other unforeseen events, BeingStay may consider refunds outside of the standard cancellation policy. These decisions will be made on a case-by-case basis.</p><p><br><strong>9. Contact Us:</strong></p><ul><li>If you need to cancel or have questions about our refund policy, please reach out to our dedicated customer support team at <a href=\"mailto:support@beingstay.com\">support@beingstay.com</a>. We are committed to providing you with prompt assistance for any inquiries or concerns related to your reservation or refund.</li></ul>",
+        "privacyPolicy": "<p>At BeingStay by ByeRooms, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you use our services, including our website and mobile applications (collectively referred to as the \"Services\").</p><p><br><strong>1. Information We Collect:</strong></p><p>We may collect the following types of personal information when you use our Services:</p><p><strong>Personal Information:</strong> This includes your name, email address, phone number, and other information you provide when creating an account or making a reservation.</p><p><strong>Booking Information:</strong> We collect details about your bookings, including villa preferences, check-in/check-out dates, and payment information.</p><p><strong>Communication:</strong> We may store records of your communications with us, including emails and messages through our platform.</p><p><strong>Usage Information:</strong> We collect information about how you interact with our Services, including your browsing history, search queries, and pages visited.</p><p><strong>Device Information:</strong> We may collect information about the device you use to access our Services, including device type, operating system, and unique identifiers.</p><p><br><strong>2. How We Use Your Information:</strong></p><p>We use your personal information for various purposes, including:</p><p><strong>Providing Services:</strong> To facilitate villa bookings, process payments, and deliver customer support.</p><p><strong>Improving Services:</strong> To analyze and enhance our Services, including website functionality and user experience.</p><p><strong>Communication:</strong> To send you booking confirmations, updates, and promotional offers, if you have opted in to receive such communications.</p><p><strong>Safety and Security:</strong> To ensure the safety and security of our platform and users.</p><p><br><strong>3. Sharing Your Information:</strong></p><p>We may share your information with third parties in the following circumstances:</p><p><strong>Villa Owners and Hosts:</strong> We share your booking information with villa owners and hosts to facilitate your reservations.</p><p><strong>Service Providers:</strong> We may share your information with trusted third-party service providers to perform services on our behalf, such as payment processing and customer support.</p><p><strong>Legal Compliance:</strong> We may disclose your information when required by law or in response to legal requests.</p><p><br><strong>4. Your Choices:</strong></p><p><strong>Account Information:</strong> You can update your account information at any time by logging into your account.</p><p><strong>Communication Preferences:</strong> You can manage your communication preferences by adjusting your settings or unsubscribing from promotional emails.</p><p><br><strong>5. Security:</strong></p><p>We implement security measures to protect your personal information from unauthorized access and use. However, please be aware that no data transmission over the internet can be guaranteed as 100% secure.</p><p><br><strong>6. Updates to this Privacy Policy:</strong></p><p>We may update this Privacy Policy periodically to reflect changes in our practices or for legal and regulatory reasons. We will notify you of any significant updates through our Services.</p><p><br><strong>7. Contact Us:</strong></p><p>If you have any questions or concerns about this Privacy Policy or your personal information, please contact us at <a href=\"mailto:support@beingstay.com\">support@beingstay.com</a>.</p><p><br>By using our Services, you agree to the terms of this Privacy Policy.</p>",
+        "TermAndConditions": "<p>Welcome to BeingStay! These Terms and Conditions (\"Terms\") govern your access to and use of our services, including our website, mobile applications, and any related content or services (collectively referred to as the \"Services\"). By using our Services, you agree to comply with and be bound by these Terms.</p><p><br><strong>1. Use of Services</strong></p><p>1.1 <strong>Eligibility:</strong> You must be at least 18 years old and have the legal capacity to enter into agreements to use our Services.</p><p>1.2 <strong>User Account:</strong> To access certain features of our Services, you may be required to create an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.</p><p><br><strong>2. Booking and Reservations</strong></p><p>2.1 <strong>Reservation:</strong> When you make a reservation through our platform, you agree to abide by the specific terms and conditions of the booking, including cancellation policies and payment terms.</p><p>2.2 <strong>Payment:</strong> You agree to pay all fees and charges associated with your reservations, including any applicable taxes.</p><p><br><strong>3. User Content</strong></p><p>3.1 <strong>Ownership:</strong> Any content you submit to our platform, including reviews, comments, and photos, remains your property. However, you grant us a worldwide, royalty-free, non-exclusive, transferable license to use, display, and distribute your content on our platform.</p><p><br><strong>4. Prohibited Activities</strong></p><p>You agree not to engage in any of the following activities:</p><p>4.1 <strong>Unauthorized Use:</strong> Use the Services for any unauthorized or illegal purpose.</p><p>4.2 <strong>Interference:</strong> Interfere with the operation of the Services or others' use of the Services.</p><p>4.3 <strong>Misrepresentation:</strong> Provide false or misleading information, including identity or contact information.</p><p>4.4 <strong>Violations:</strong> Violate these Terms, our policies, or any applicable laws or regulations.</p><p><br><strong>5. Privacy</strong></p><p>Your use of our Services is also governed by our Privacy Policy. Please review the Privacy Policy to understand our data collection and use practices.</p><p><br><strong>6. Modifications to the Services</strong></p><p>We may update, modify, or discontinue our Services at any time without notice.</p><p><br><strong>7. Termination</strong></p><p>We reserve the right to terminate or suspend your account and access to our Services at our discretion, with or without cause and without prior notice.</p><p><br><strong>8. Disclaimers and Limitations of Liability</strong></p><p>8.1 <strong>No Warranty:</strong> Our Services are provided \"as is\" and \"as available\" without warranties of any kind, either express or implied.</p><p>8.2 <strong>Limitation of Liability:</strong> To the extent permitted by law, BeingStay and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly.</p><p><br><strong>9. Governing Law and Dispute Resolution</strong></p><p>These Terms are governed by and construed in accordance with the laws of Rajasthan. Any dispute or claim arising out of or in connection with these Terms will be subject to the exclusive jurisdiction of the courts of Rajasthan.</p><p><br><strong>10. Contact Us</strong></p><p>If you have any questions or concerns about these Terms, please contact us at <a href=\"mailto:support@beingstay.com\">support@beingstay.com</a>.</p>"
+      },
+      "login": {
+        "otpMailTemplate": 1,
+        "linkMailTemplate": 1,
+        "verificationMethod": "otp"
+      },
+      "tnit": {
+        "limitMaxVillas": true,
+        "maxVillas": 15,
+        "limitMaxHotels": true,
+        "maxHotels": 15,
+        "multiVendorAllowed": true,
+        "limitMaxVendors": true,
+        "maxVendors": 5,
+        "activateWebsite": true
+      },
+      "admin": {
+        "property": {
+          "autoVerifyVilla": true,
+          "autoVerifyHotel": true,
+          "letOwnerManageReviews": false,
+          "reviewsAllowed": true
+        },
+        "booking": {
+          "enableBookingsVilla": true,
+          "enableBookingsHotel": true,
+          "letOwnerManageMinimumPriceToBook": true,
+          "minimumPriceToBook": 100,
+          "checkInTime": "01:00 PM",
+          "checkOutTime": "11:00 AM"
+        },
+        "payout": {
+          "enablePayout": false,
+          "payoutDay": "monday",
+          "applyTds": false,
+          "tdsPrice": "2.5",
+          "applyCommission": false,
+          "commissionPrice": "2.5"
+        },
+        "cancellation": {
+          "letOwnerManageCancellation": true,
+          "allowCancellation": false,
+          "cancellationRules": [
+            {
+              "_id": "64fbb6c6b65878ce5e4aa033",
+              "daysBeforeCheckIn": 3,
+              "refundablePrice": 12
+            }
+          ]
+        },
+        "gateway": {
+          "currencyCode": "INR",
+          "gatewayName": "razorpay",
+          "privateApiKey": "Q4d0DekD5CwDlyo5PzHytmST",
+          "publicApiKey": "rzp_live_piR5WM3qdtst0R"
+        }
+      },
+      "_id": "64fbb6c6b65878ce5e4aa032",
+      "createdAt": "2023-09-09T00:05:26.547Z",
+      "updatedAt": "2023-09-22T11:41:28.982Z",
+      "__v": 0
+    }
+  ],
+  "users": [
+    {
+      "_id": "64fbb6c6b65878ce5e4aa036",
+      "name": "TNIT",
+      "email": "tnit@tnitservices.com",
+      "phone": "8652290747",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$19kW4iwSzWM71ZPOrtN.YeVB9zC2F1/4OKWJZQluGXbEf4GEBPkme",
+      "role": "tnit",
+      "createdAt": "2023-09-09T00:05:26.630Z",
+      "updatedAt": "2023-09-09T00:05:26.630Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fbb7bdb65878ce5e4aa07f",
+      "name": "Mohit Kumawat",
+      "email": "mohitkumawat310@gmail.com",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$dNE1cooanhmJzZzhz2g.BufCxaDmOQiGZxamdbB9wwG.4WG9isoO2",
+      "role": "admin",
+      "createdAt": "2023-09-09T00:09:33.536Z",
+      "updatedAt": "2023-09-09T15:28:13.848Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fc007ec46bd2c4a52909c2",
+      "name": "Being Stay Support",
+      "email": "support@beingstay.com",
+      "phone": "8602818849",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/users/1694246381407-af3a059e748112e27ecd8d9d5799979a.jpeg",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$Z06il2BhQyXxoJnK9PO4aeb4xVZP7Qzm97k4esHCiptSE6K.9Tjke",
+      "role": "admin",
+      "createdAt": "2023-09-09T05:19:58.204Z",
+      "updatedAt": "2023-09-11T07:48:44.326Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fea3b49ea38c6a271c6d69",
+      "name": "Chiraag Malkani",
+      "email": "chiraag@tnit.in",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/users/1694409651995-58d31a8107f8a9ba8c95da41dccbed36.png",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$OzgBGVkjuvWClRavlivJZu5Rabv7LXN7eUll/ZdjjFFOVAq0ZB35m",
+      "role": "admin",
+      "createdAt": "2023-09-11T05:20:52.168Z",
+      "updatedAt": "2023-09-11T05:20:52.168Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fea756a3e3b476d78e020b",
+      "name": "TNIT Support",
+      "email": "support@tnit.in",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$frdeSkSnwUXUnPcQPqiUp.3tI3YXJBkRSw0t4MvB/deFf6fUfmDa6",
+      "role": "user",
+      "createdAt": "2023-09-11T05:36:22.195Z",
+      "updatedAt": "2023-09-11T05:36:22.195Z",
+      "__v": 0
+    }
+  ],
+  "locations": [
+    {
+      "seoInfo": {
+        "title": "Best Villas in Lonavala",
+        "metaDesc": "Best Villas in Lonavala"
+      },
+      "_id": "64fc045fc46bd2c4a5290a28",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/locations/1694237790980-2d1156fc9a70444918747dcfe357b9e5.webp",
+      "name": "Lonavala",
+      "createdAt": "2023-09-09T05:36:31.155Z",
+      "updatedAt": "2023-09-11T07:30:15.812Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "title": "Best Villas in Alibaug",
+        "metaDesc": "Best Villas in Alibaug"
+      },
+      "_id": "64fc239fc46bd2c4a5290bfe",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/locations/1694245791184-89262e5c033ce718c3431b7aa47aebf8.webp",
+      "name": "Alibaug",
+      "createdAt": "2023-09-09T07:49:51.409Z",
+      "updatedAt": "2023-09-09T07:49:51.409Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "title": "Best Villas in Kashid",
+        "metaDesc": "Best Villas in Kashid"
+      },
+      "_id": "64fc2419c46bd2c4a5290c19",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/locations/1694245913256-8ff3562f55677edb9b0e859ce162f2a6.jpg",
+      "name": "Kashid",
+      "createdAt": "2023-09-09T07:51:53.574Z",
+      "updatedAt": "2023-09-09T07:51:53.574Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "title": "",
+        "metaDesc": ""
+      },
+      "_id": "64febaaea3e3b476d78e04fd",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/locations/1694415534771-1ff7ce0e3b4bf34d66734a0dddecda74.jpg",
+      "name": "Karjat",
+      "createdAt": "2023-09-11T06:58:55.002Z",
+      "updatedAt": "2023-09-11T06:58:55.002Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "title": "",
+        "metaDesc": ""
+      },
+      "_id": "64fec0aaa3e3b476d78e07e1",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/locations/1694417066613-6f37ab97f4b00a92c7efa5faab3ec10d.jpg",
+      "name": "Mahabaleshwar",
+      "createdAt": "2023-09-11T07:24:26.726Z",
+      "updatedAt": "2023-09-11T07:24:26.726Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "title": "",
+        "metaDesc": ""
+      },
+      "_id": "64fec124a3e3b476d78e082f",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/locations/1694417188175-73af141363c3ee42fdeeda0550f055dc.jpeg",
+      "name": "Igatpuri",
+      "createdAt": "2023-09-11T07:26:28.372Z",
+      "updatedAt": "2023-09-11T07:26:28.372Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "title": "",
+        "metaDesc": ""
+      },
+      "_id": "64fec63ca3e3b476d78e0b4a",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/locations/1694418492511-afc6a3a2dca9ce65f7d93280a67edad3.jpg",
+      "name": "Goa",
+      "createdAt": "2023-09-11T07:48:12.887Z",
+      "updatedAt": "2023-09-11T07:48:12.887Z",
+      "__v": 0
+    }
+  ],
+  "villas": [
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc2759c46bd2c4a5290d3e",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64fc2759c46bd2c4a5290d3d",
+      "name": "O'NEST By The Beach 8bhk",
+      "slug": "o-nest-by-the-beach-8bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895361-7dd6b07e08bca7a7a514b49a6d6cafaa.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895370-e8210506cff1619411273bd3229225f6.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895366-d402a409f25a29e9caf3bc47aca5b3b7.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895365-9731c9c803acc7f1c3d86457e2a13fda.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895366-d668f935c711e9e57b247bcc94369b95.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895369-daebeb339dcb14fbe2feb2a9ba0c2a1d.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895369-2b129af6c126445cc62ae373090ebf1d.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895368-681eb41f4d17c0bb89ab77067c0dff3b.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895368-841c8966311b902a242545ad788bad48.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895366-7262188a08b8c4677ff1fad6bd0ec171.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694286895368-f3e0fe5df143fb8b59836c7565349bb1.jpeg"
+      ],
+      "address": "S No 133, At & Post Barshiv, Kashid, Maharashtra 402202",
+      "googleMapsLink": "https://goo.gl/maps/WGTPZNNCVKJ38mXs7",
+      "locationId": "64fc2419c46bd2c4a5290c19",
+      "basePrice": 45000,
+      "discountedPrice": 35000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 2000,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "8 BHK"
+      ],
+      "amenities": [
+        "64fc264ec46bd2c4a5290cfe",
+        "64fc2658c46bd2c4a5290d02",
+        "64fc2663c46bd2c4a5290d06",
+        "64fc266dc46bd2c4a5290d0a",
+        "64fc2676c46bd2c4a5290d0e"
+      ],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:05:45.698Z",
+      "updatedAt": "2023-09-09T19:14:55.661Z",
+      "__v": 0,
+      "desc": "<p><strong>BeingStay Presents: O'NEST By The Beach - A Luxurious 8-BHK Retreat in Kashid</strong></p><p><br>Experience coastal luxury at its finest at O'NEST By The Beach, exclusively presented by BeingStay. This opulent 8-bedroom villa, nestled in the serene town of Kashid, offers a tranquil and lavish escape for families, friends, and corporate retreats.</p><p><br><strong>Location:</strong> Kashid, Maharashtra</p><p><br><strong>Amenities:</strong></p><p><br><strong>Private Pool:</strong> Immerse yourself in relaxation with a dip in the private outdoor pool, providing a perfect spot for soaking up the sun or enjoying leisurely swims.</p><p><br><strong>Complimentary Wi-Fi:</strong> Stay connected with high-speed Wi-Fi available throughout the villa, courtesy of BeingStay.</p><p><br><strong>Direct Beach Access:</strong> Experience the pristine beauty of Kashid Beach, just steps away from the villa. Feel the soft sands and savor the soothing ocean waves.</p><p><br><strong>Child-Friendly:</strong> O'NEST is designed to be child-friendly, ensuring safety and enjoyment for families traveling with kids.</p><p><br><strong>Pet-Friendly:</strong> Your furry companions are welcome here, as we are a pet-friendly villa.</p><p><br><strong>Room Service:</strong> Savor local flavors with the convenience of room service, allowing you to dine in the comfort of your villa.</p><p>&nbsp;</p><p><strong>24-Hour Front Desk:</strong> Our 24-hour front desk, courtesy of BeingStay, is ready to assist with any requests or inquiries.</p><p>&nbsp;</p><p><strong>Full-Service Laundry:</strong> Keep your attire fresh with our full-service laundry facilities.</p><p><br><strong>Fully Equipped Kitchen:</strong> Prepare gourmet meals in the modern, fully equipped kitchen.</p><p><br><strong>Activities:</strong><br><br><strong>Beach Bliss:</strong> Enjoy direct access to the beach for sunbathing, sandcastle building, and leisurely shoreline walks.</p><p><br><strong>Parking &amp; Transport:</strong></p><p><br><strong>Free Parking:</strong> Ample free parking is available on-site, ensuring convenience for guests.</p><p><br><strong>Local Shuttle:</strong> Explore the local area effortlessly with our convenient local shuttle service.</p><p><br>Experience the perfect fusion of luxury, comfort, and nature at O'NEST By The Beach, proudly presented by BeingStay. Whether you seek relaxation by the pool, adventure on the beach, or cherished moments with loved ones, this 8-BHK villa delivers it all.</p><p><br>Book your stay now and embark on an unforgettable seaside retreat. Your dream vacation awaits at O'NEST By The Beach in Kashid, Maharashtra, exclusively through BeingStay.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc2987c46bd2c4a5290db9",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64fc2987c46bd2c4a5290db8",
+      "name": " Green Villa 5BHK",
+      "slug": "green-villa-5bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192581-0795b3cbbc04c2789b45ef198ac81749.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192578-211bb3e1c828e79192f0bcc0671265c9.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192576-afa56229e93ce15b6c7dd8d8de957d93.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192578-62f505a082f8c2602eae4404e3b3e98d.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192579-d380788ce14c67076e4db9fb68dcc3b5.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192580-2bbf212ab79feaeb3f58a134e6114166.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192580-964657ab33381952315982f2a0854c8f.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192581-d773baea4950c6e8722a292a83ddc89a.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192580-55a8336986a7556667840a250fe9e5fc.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287192577-c3f04dfb7d81bda468c18969f82e9904.jpeg"
+      ],
+      "address": "Alibag - Mandwa Road, Zirad, Maharashtra 402201",
+      "googleMapsLink": "https://goo.gl/maps/LcGacrVHq1vJRiGdA",
+      "locationId": "64fc239fc46bd2c4a5290bfe",
+      "basePrice": 25000,
+      "discountedPrice": 15000,
+      "minGuest": 5,
+      "maxGuest": 15,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "5BHK"
+      ],
+      "amenities": [
+        "64fc264ec46bd2c4a5290cfe",
+        "64fc2663c46bd2c4a5290d06",
+        "64fc2658c46bd2c4a5290d02",
+        "64fc266dc46bd2c4a5290d0a",
+        "64fc2676c46bd2c4a5290d0e"
+      ],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:15:03.917Z",
+      "updatedAt": "2023-09-09T19:20:46.955Z",
+      "__v": 0,
+      "desc": "<p><strong>Green Villa - A Luxurious 5-BHK Haven in Alibaug, Maharashtra</strong><br>&nbsp;</p><p>Welcome to Green Villa, a splendid 5-bedroom retreat nestled in the picturesque town of Alibaug, Maharashtra. This villa offers a perfect blend of comfort and style for families, groups of friends, and anyone seeking a tranquil escape.</p><p><br><strong>Location:</strong> Alibaug, Maharashtra</p><p><br><strong>Amenities:</strong></p><p><br><strong>All Ac 5 ROOMS:</strong> Enjoy the comfort of air conditioning in all five spacious rooms.</p><p><br><strong>Sound System:</strong> Set the mood with your favorite tunes using the villa's sound system.</p><p>&nbsp;</p><p><strong>Family and Children's Tableware:</strong> Perfect for family gatherings, this villa provides family and children's tableware.</p><p><br><strong>Window Guards:</strong> Safety is a priority with window guards in place.</p><p><br><strong>Board Games:</strong> Fun and entertainment are at your fingertips with a selection of board games.</p><p><br><strong>Heating and Cooling:</strong> Stay comfortable with air conditioning, ceiling fans, and portable fans.</p><p><br><strong>Home Safety:</strong> Your safety is ensured with security cameras, fire extinguishers, and a first aid kit on the property.</p><p><br><strong>Internet and Office:</strong> Stay connected with free Wi-Fi and make use of the office space.</p><p><br><strong>Kitchen and Dining:</strong> The fully equipped kitchen includes a refrigerator, microwave, dishes, silverware, and more.</p><p><br><strong>Outdoor Features:</strong> The villa is right next to a body of water, offering beach access. You can relax in the garden, by the fire pit, or on the outdoor furniture. A barbecue grill and dining area are also available.</p><p><br><strong>Parking:</strong> Enjoy free parking on the premises and free on-street parking.</p><p><br><strong>Private Outdoor Pool:</strong> Take a dip in the private pool, available all year round, 24 hours a day, and complete with pool toys.</p><p><br><strong>Single Level Home:</strong> The villa is designed without stairs for added convenience.</p><p><br><strong>Services:</strong> Luggage drop-off is allowed for early arrivals or late departures, and smoking is permitted.</p><p><br><strong>Bathroom:</strong> The bathroom includes a bath, hot water, cleaning products, shampoo, body soap, and shower gel.</p><p><br><strong>Bedroom and Laundry:</strong> Essentials such as towels, bed sheets, soap, toilet paper, hangers, and bed linen are provided. Extra pillows and blankets, clothes drying racks, and storage are also available.</p><p><br><strong>Entertainment:</strong> A SMART TV with standard cable/satellite channels is provided for your entertainment.</p><p><br>Green Villa in Alibaug, Maharashtra, offers a serene and luxurious escape. Whether you seek relaxation by the pool, beachside adventures, or quality time with loved ones, this 5-BHK villa caters to your every need.</p><p><br>Book your stay now and embark on an unforgettable retreat at Green Villa, presented by BeingStay. Your dream vacation awaits in Alibaug, Maharashtra.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc2aa1c46bd2c4a5290e02",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64fc2aa1c46bd2c4a5290e01",
+      "name": "Gypsy Villa 3BHK",
+      "slug": "gypsy-villa-3bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531597-9fdf3cde069c9c39357039cdd1e2c601.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531597-a8b4e2b35b8cd5e3170be0dcccc0d5a3.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531596-cd7b8ad378d4b1f4f2fb71fad3d8bc8c.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531598-57521de4fb0f0d8ce6c514cda4b637c7.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531598-cf45a13a394b79dcbcdfdee32c338ce5.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531598-bc064fd9e23418c902ff16080b950623.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531597-55c0cffe2fe6037fe065b574e49c4220.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531598-e55e0fce7be0e97602b15f562262de4f.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531598-e959188a552c4a433f4bc4b8104fa90a.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531599-4914064748b74b1dd1341a2c64dc2926.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287531599-4e65fcee8d3fb3ba90801f7e69564db1.jpeg"
+      ],
+      "address": "Near Devi Mandir, Akshi, 402204 Alibaug, India",
+      "googleMapsLink": "https://goo.gl/maps/MKzgVPeHSUVfA2Co9",
+      "locationId": "64fc239fc46bd2c4a5290bfe",
+      "basePrice": 25000,
+      "discountedPrice": 15000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "3BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:19:45.192Z",
+      "updatedAt": "2023-09-09T19:25:31.864Z",
+      "__v": 0,
+      "desc": "<p><strong>Gypsy Villa - A Tranquil 3-BHK BeingStay Retreat in Akshi, Alibaug</strong><br>&nbsp;</p><p>Welcome to Gypsy Villa, an idyllic 3-bedroom BeingStay haven nestled near Devi Mandir in Akshi, Alibaug, India. This villa is your gateway to serenity, offering a blend of relaxation and recreation.</p><p><br><strong>Amenities:</strong></p><p><br><strong>3 Bedrooms:</strong> Gypsy Villa, a proud part of BeingStay, houses three beautifully appointed bedrooms, each providing a cozy and peaceful retreat for guests. Comfortable furnishings and serene decor ensure a restful night's sleep.</p><p><br><strong>4 Bathrooms:</strong> With four bathrooms available, there's never a queue in the morning rush or after a day of beach fun. These well-equipped bathrooms offer convenience and comfort.</p><p><br><strong>Swimming Pool:</strong> Take a refreshing plunge into your private swimming pool. Whether it's a morning swim to invigorate or a leisurely dip to unwind, the pool awaits your enjoyment.</p><p><br><strong>Nature Side:</strong> Embrace the tranquil embrace of nature surrounding Gypsy Villa. The villa's location immerses you in lush greenery, creating a soothing ambiance for relaxation.</p><p><br><strong>Bird Watching:</strong> Nature enthusiasts will be delighted by the opportunity for birdwatching. The villa's surroundings attract a variety of avian species, offering a chance to observe and appreciate local wildlife.</p><p><br><strong>Beach Access:</strong> For beach lovers, Gypsy Villa provides seamless access to the nearby shoreline. Enjoy leisurely walks along the sandy coast, build intricate sandcastles, or simply soak up the mesmerizing vistas and the rhythmic sound of the waves.</p><p><br><strong>Indoor Games:</strong> Rain or shine, indoor entertainment awaits. Gypsy Villa offers a selection of board games and card games, ensuring that you and your companions are entertained during your stay.</p><p><br>Gypsy Villa in Akshi, Alibaug, is designed to deliver a comfortable and enjoyable BeingStay retreat. Whether you desire relaxation by the pool, immersion in nature's beauty, or engaging recreational activities, this villa caters to every aspect of your vacation.<br>&nbsp;</p><p>Book your stay now and create cherished memories at Gypsy Villa, your BeingStay home away from home in the tranquil embrace of Akshi, Alibaug.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc2c28c46bd2c4a5290e54",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64fc2c28c46bd2c4a5290e53",
+      "name": "Umbrella 6 BHK",
+      "slug": "umbrella-6-bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768084-712796de2dd12f69774df229cadd1beb.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768081-7a0430ab87d30254cdc77cd85100bbe2.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768083-0b079b9d313711011cfcf929158ef46a.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768082-56e98ff84059bacac00e9722853fb362.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768082-abdb881335bd370c280115c50b75832c.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768083-28d7103eb9b1d1cb6e94d60892c689d3.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768083-cc3dc7a62790e48d9505c36f7991fced.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768084-07cff82ee877a9bba07c5e6613c7bc00.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768082-9efd93eead232755839c0b99a511c049.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768083-cfd106f558ca9312fff9afdc010426af.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287768083-ea7e420909c94f66031c94cec4b952e4.jpeg"
+      ],
+      "address": "Alibag - Revas Rd, Chondhi, Aibaug, Maharashtra 402201",
+      "googleMapsLink": "https://goo.gl/maps/ioDmHUDKmbC3FewN7",
+      "locationId": "64fc239fc46bd2c4a5290bfe",
+      "basePrice": 25000,
+      "discountedPrice": 15000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "6BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:26:16.765Z",
+      "updatedAt": "2023-09-09T19:29:28.555Z",
+      "__v": 0,
+      "desc": "<p><strong>Umbrella - A Luxurious 6-BHK Villa Retreat in Alibaug</strong><br>&nbsp;</p><p>Discover the opulence of Umbrella, a stunning 6-bedroom villa located in Alibaug, Maharashtra. This magnificent villa, boasting a range of amenities, is your gateway to relaxation and rejuvenation.</p><p><br><strong>What this place offers:</strong></p><p><br><strong>Scenic Views:</strong> Umbrella offers breathtaking scenic views that provide a serene backdrop for your stay.</p><p><br><strong>Garden View:</strong> Enjoy the lush greenery and natural beauty with garden views right from your villa.</p><p><br><strong>Pool View:</strong> Immerse yourself in the refreshing pool waters while soaking in picturesque pool views.</p><p><br><strong>Bathroom:</strong> The villa provides well-appointed bathrooms with essential amenities, including a bath, cleaning products, shampoo, body soap, hot water, and shower gel.</p><p><br><strong>Bedroom and Laundry:</strong> Guests are provided with essentials such as towels, bed sheets, soap, and toilet paper. Hangers, bed linen, extra pillows and blankets, clothes drying rack, and clothes storage are also available for your convenience.</p><p>&nbsp;</p><p><strong>Entertainment:</strong> Stay entertained with a 49\" HDTV featuring standard cable/satellite channels. The villa also offers a sound system and a selection of board games for family fun.</p><p><br><strong>Heating and Cooling:</strong> Enjoy climate control with air conditioning, ceiling fans, and portable fans for added comfort.</p><p><br><strong>Home Safety:</strong> Your safety is a top priority, with security cameras on the property, fire extinguishers, and a first aid kit on hand.</p><p><br><strong>Internet and Office:</strong> Stay connected with Wi-Fi, and if needed, a workspace is available for your convenience.</p><p><br><strong>Kitchen and Dining:</strong> The villa features a fully equipped kitchen, including a refrigerator, microwave, dishes, silverware, bowls, chopsticks, plates, cups, and more. A freezer, kettle, barbecue utensils, and a dining table are also provided for your culinary needs.</p><p><br><strong>Location Features:</strong> The villa offers a picturesque waterfront location, right next to a body of water. Guests can also enjoy easy beach access.</p><p><br><strong>Private Entrance:</strong> Benefit from the privacy and convenience of a separate street or building entrance.</p><p><br><strong>Launderette Nearby:</strong> Laundry facilities are conveniently located nearby.</p><p>&nbsp;</p><p><strong>Resort Access:</strong> Guests have the option to use nearby resort facilities for added enjoyment.</p><p>&nbsp;</p><p><strong>Outdoor:</strong> Relax outdoors on the patio or balcony, in the garden, or by the fire pit. The villa is equipped with outdoor furniture, an outdoor dining area, a BBQ grill, and sun loungers.</p><p><br><strong>Parking and Facilities:</strong> Enjoy free parking on the premises as well as free on-street parking. The private outdoor pool is available year-round, open 24 hours, and includes pool toys. This single-level home has no stairs for easy accessibility.</p><p><br><strong>Services:</strong> Umbrella offers luggage drop-off for early arrivals or late departures, allows smoking, and permits long-term stays of 28 days or more. The host is available to greet you, and cleaning services are available during your stay.</p><p><br>Umbrella in Alibaug is your luxurious retreat, offering the perfect blend of comfort, entertainment, and natural beauty.&nbsp;<br><br>Book your stay now and experience the epitome of villa living in this splendid 6-BHK villa presented by BeingStay.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc2d0ec46bd2c4a5290ea6",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64fc2d0ec46bd2c4a5290ea5",
+      "name": "Assanjoo Villa 5BHK",
+      "slug": "assanjoo-villa-5bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936185-a432972c94b1273bbbc38c60ab88c30f.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936187-c6de9ea2d7f598c4a3e0a2b78055625f.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936188-1b7959a6228143177a4ae7c169863b91.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936188-ef830f137778229ebf5fff5be25c57f2.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936186-0df7db870aa6c467f47c20e3397a1b1a.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936188-5454a1e4c22a0cd3178fac4c5d299085.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936187-96b41ce2413974ecd9b4eaf6f9a56bcf.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936188-19cee30eefdd3f3d3e3dd1866bf8187b.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694287936187-4c8e921c42f79d97c38330ea79bed01c.jpeg"
+      ],
+      "address": "Bhairoli Village, Mapgao Chondi, Alibag, Maharashtra 402201",
+      "googleMapsLink": "https://goo.gl/maps/16s8t4vKitF4sJnF6",
+      "locationId": "64fc239fc46bd2c4a5290bfe",
+      "basePrice": 30000,
+      "discountedPrice": 15000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "5 BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:30:06.996Z",
+      "updatedAt": "2023-09-09T19:32:16.480Z",
+      "__v": 0,
+      "desc": "<p><strong>Assanjoo Villa - A Spacious 5-BHK BeingStay Retreat in Alibaug</strong><br>&nbsp;</p><p>Welcome to Assanjoo Villa, an expansive 5-bedroom BeingStay retreat located in the serene town of Alibaug. This villa, presented by BeingStay, offers a range of amenities to make your stay comfortable and memorable.</p><p><br><strong>Location:</strong> Alibaug</p><p><br><strong>What this place offers:</strong></p><p><br><strong>Bathroom:</strong> The villa provides essential bathroom amenities, including a hairdryer, cleaning products, hot water, and shower gel.</p><p><br><strong>Bedroom and Laundry:</strong> Guests have access to a washing machine, as well as essentials such as towels, bed sheets, soap, and toilet paper. Hangers, bed linen, extra pillows and blankets, an iron, clothes drying rack, and clothes storage in a wardrobe are also available.</p><p><br><strong>Entertainment:</strong> Stay entertained with a TV featuring standard cable/satellite channels.</p><p><br><strong>Heating and Cooling:</strong> Enjoy climate control with air conditioning.</p><p><br><strong>Home Safety:</strong> For added safety, a first aid kit is provided.</p><p><br><strong>Kitchen and Dining:</strong> The villa is equipped with a refrigerator and microwave for your culinary needs.</p><p><br><strong>Location Features:</strong> Benefit from a private entrance for added convenience.</p><p><br><strong>Outdoor:</strong> Relax outdoors on the patio or balcony, in the garden, or by the BBQ grill. The villa also offers free on-premises parking and a pool for your enjoyment.</p><p><br><strong>Services:</strong> Pets are allowed, and assistance animals are always welcome. Luggage drop-off is allowed for early arrivals or late departures, and smoking is permitted. Long-term stays of 28 days or more are also allowed. Self check-in is available, and building staff are on hand 24 hours a day to assist guests.</p><p><br>Assanjoo Villa in Alibaug is a spacious and well-equipped retreat, perfect for families and groups.&nbsp;<br><br>Book your stay now and experience comfort and convenience in this 5-BHK villa, exclusively presented by BeingStay.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc2e1ec46bd2c4a5290f01",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "promotion": {
+        "bestRated": true,
+        "new": true
+      },
+      "_id": "64fc2e1ec46bd2c4a5290f00",
+      "name": "Celebrity Villa 5BHK",
+      "slug": "celebrity-villa-5bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375857-fb30c8ada24c3aabb8cf7000d1eeb1bb.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375856-5ee8f9927024c1f8d9097d509ed793f8.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375856-f84a34122d96a1924c7ebfa9c5a5a3d2.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375854-6bd918fb17a797090c8f2720b2f139c7.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375856-0c28fe376a35f032c7cabbafb446b552.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375857-d1e79b0d3c9b65ca2fe7573d49000e1f.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375857-d8a100d62a0c8f60d444a57f1926de67.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375853-b5fc87aa578cc12c32f9ea083ae6b128.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375857-1d5121fdb7e814d6a7abbcf2b1c2f387.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375857-cd16e9833c793cbe6ab16cdd227ed84a.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288375858-56ff7171e83adf9d824158b14845bbbf.jpeg"
+      ],
+      "address": "Sneha Bunglows Road, Kune Village, Lonavala, Maharashtra 410405",
+      "googleMapsLink": "https://goo.gl/maps/gLUXK4NYShWrjrCcA",
+      "locationId": "64fc045fc46bd2c4a5290a28",
+      "basePrice": 25000,
+      "discountedPrice": 10000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 999,
+      "petAllowed": false,
+      "villaDetails": [
+        "5 BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:34:38.380Z",
+      "updatedAt": "2023-09-09T19:39:36.081Z",
+      "__v": 0,
+      "desc": "<p><strong>Celebrity Villa - A Luxurious 5-BHK Retreat in Lonavala, Maharashtra</strong><br>&nbsp;</p><p>Experience opulent living at Celebrity Villa, a magnificent 5-bedroom villa nestled in the picturesque landscapes of Lonavala, Maharashtra. This lavish retreat, exclusively presented by BeingStay, offers a range of amenities to make your stay truly memorable.</p><p><br><strong>Address:</strong> Lonavala, Maharashtra</p><p><br><strong>Amenities:</strong></p><p><br><strong>Pool:</strong> Take a dip in the private pool and bask in the sun's warmth, creating unforgettable moments of relaxation.</p><p><br><strong>Parking:</strong> Enjoy the convenience of free parking on the premises, ensuring your peace of mind.</p><p><br><strong>Wi-Fi:</strong> Stay connected with complimentary Wi-Fi available throughout the villa, allowing you to work or keep in touch with loved ones.</p><p><br><strong>Wellness:</strong> While there's no spa on-site, the serene ambiance of Lonavala offers natural wellness for the soul.</p><p><br><strong>Rooms:</strong> Revel in the spaciousness and comfort of 5 well-appointed bedrooms, ensuring a peaceful night's sleep.</p><p>&nbsp;</p><p><strong>Kitchen:</strong> A fully equipped kitchen is at your disposal, providing the freedom to prepare your meals and savor home-cooked delights.</p><p><br><strong>Pet-Friendly:</strong> Celebrity Villa welcomes your furry companions, making it a pet-friendly haven for your entire family.</p><p>&nbsp;</p><p><strong>Food and Drink:</strong> Enjoy the convenience of room service, allowing you to indulge in delectable dishes in the comfort of your villa.</p><p><br><strong>Services:</strong></p><p><br><strong>Front Desk:</strong> A 24-hour front desk is available to assist you with any requests or inquiries, ensuring a seamless and enjoyable stay.</p><p><br><strong>Full-Service Laundry:</strong> Keep your attire fresh with full-service laundry facilities.</p><p><br>The Celebrity Villa in Lonavala, Maharashtra, is a sanctuary of luxury and comfort, offering a perfect escape for families and groups. Whether you seek relaxation by the pool, culinary adventures in the kitchen, or the warmth of attentive service, this 5-BHK villa by BeingStay fulfills your desires.</p><p><br>Book your stay now and immerse yourself in the epitome of opulence at Celebrity Villa in Lonavala. Your extraordinary getaway awaits!</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc2f1bc46bd2c4a5290ff7",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "promotion": {
+        "bestRated": true,
+        "new": true
+      },
+      "_id": "64fc2f1bc46bd2c4a5290ff6",
+      "name": "Legacy Villa - 7 BHK",
+      "slug": "legacy-villa-7-bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976664-6e862cf9d27754e98e413e93b5fa0603.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976666-2421ffc4b22cb8b7ddcadfac87814735.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976667-e31bbda43aba44ac4bbeeab2d064f0ef.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976665-359e706bef1faf9dc996ba87dd231144.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976666-2e253e805f5982fb32f3752432842c8c.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976666-7b7072bb1f0d0443a21468009301620c.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976665-0b4f5b3fd3dc0b170b9ff64d0e9a4dd5.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976667-ba6aa41c9e73e0100cfda773e72a34c2.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976666-96b7875ca3b9c13a4b626b5cdca906a2.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976665-cc097e49a2f3b90e84e5cd01e481498f.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976667-503f3947fb77bcd4dcc58bc316c766a7.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694288976667-c99b517ad98b12d80e5d0718e37f3364.jpeg"
+      ],
+      "address": "Legacy villa , INS shivaji road Bushigoan, Lonavala, Maharashtra 410401",
+      "googleMapsLink": "https://goo.gl/maps/wXxihdsAaG1ygmae9",
+      "locationId": "64fc045fc46bd2c4a5290a28",
+      "basePrice": 30000,
+      "discountedPrice": 15000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "7 BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:38:51.551Z",
+      "updatedAt": "2023-09-09T19:50:06.415Z",
+      "__v": 0,
+      "desc": "<p><strong>Legacy Villa - A Luxurious 7-BHK Retreat in Lonavala</strong></p><p><br>Experience grandeur and elegance at Legacy Villa, an impressive 7-bedroom villa located in the scenic beauty of Lonavala. This opulent retreat, exclusively presented by BeingStay, offers a wide array of amenities to make your stay truly exceptional.</p><p><br><strong>Amenities:</strong></p><p><br><strong>All Ac 7 ROOMS:</strong> Legacy Villa boasts seven well-appointed air-conditioned rooms, each designed for your utmost comfort.</p><p>&nbsp;</p><p><strong>Sound System:</strong> Enjoy your favorite music and entertainment with a premium sound system.</p><p>&nbsp;</p><p><strong>Family:</strong> Legacy Villa is family-friendly, ensuring a safe and enjoyable environment for all ages.</p><p><br><strong>Children’s Tableware:</strong> Thoughtfully provided children's tableware adds to the convenience for families with kids.</p><p>&nbsp;</p><p><strong>Window Guards:</strong> Safety is a top priority with window guards in place.</p><p>&nbsp;</p><p><strong>Board Games:</strong> Engage in friendly competition or create lasting memories with a selection of board games.</p><p><br><strong>Heating and Cooling:</strong> Enjoy year-round comfort with air conditioning, ceiling fans, and portable fans.</p><p>&nbsp;</p><p><strong>Home Safety:</strong> Security is ensured with property security cameras, fire extinguishers, and a first aid kit.</p><p><br><strong>Internet and Office:</strong> Stay connected with complimentary Wi-Fi, and if needed, a workspace is available.</p><p><br><strong>Kitchen and Dining:</strong> The villa features a fully equipped kitchen where you can prepare your meals. It includes a refrigerator, microwave, dishes, silverware, bowls, chopsticks, plates, cups, and more. A freezer, kettle, barbecue utensils, grill, and dining table complete the culinary amenities.</p><p><br><strong>Location Features:</strong> Legacy Villa offers a picturesque waterfront location, right next to a body of water. Guests can also enjoy easy beach access.</p><p><br><strong>Private Entrance:</strong> Benefit from a private entrance for added convenience.</p><p><br><strong>Launderette Nearby:</strong> Laundry facilities are conveniently located nearby.</p><p><br><strong>Resort Access:</strong> Guests have the option to use nearby resort facilities for added enjoyment.</p><p>&nbsp;</p><p><strong>Outdoor:</strong> Relax outdoors on the patio or balcony, in the garden, or by the fire pit. The villa is equipped with outdoor furniture, an outdoor dining area, a BBQ grill, and sun loungers.</p><p><br><strong>Parking and Facilities:</strong> Enjoy free parking on the premises as well as free on-street parking. The private outdoor pool is available year-round, open 24 hours, and includes pool toys. This single-level home has no stairs for easy accessibility.</p><p><br><strong>Services:</strong> Legacy Villa allows luggage drop-off for early arrivals or late departures, smoking is permitted, and long-term stays of 28 days or more are allowed. Self check-in is available, and building staff are on hand 24 hours a day to assist guests.</p><p><br>Legacy Villa in Lonavala is the epitome of luxury and comfort, offering an exquisite escape for families and groups.&nbsp;<br><br>Book your stay now and indulge in the grandeur of Legacy Villa, exclusively presented by BeingStay.</p><p>&nbsp;</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc30d7c46bd2c4a529105f",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "promotion": {
+        "bestRated": false,
+        "new": false
+      },
+      "_id": "64fc30d7c46bd2c4a529105e",
+      "name": "Alpha Villa - 2BHK",
+      "slug": "alpha-villa-2bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289162537-fbe40e06e2d50a42c7ac2bdfa9acdccd.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289162536-d8bfa6d0bc3386659044e391b079c018.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289162538-3815ddc78c2e2b8bfaf905e172bd9a66.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289162538-d06427f24416ced7765c0e060a7ee53e.jpeg"
+      ],
+      "address": "Khondagewadi, INS shivaji road, Bushigoan, 410401 Lonavala, India",
+      "googleMapsLink": "https://goo.gl/maps/wXxihdsAaG1ygmae9  ",
+      "locationId": "64fc045fc46bd2c4a5290a28",
+      "basePrice": 16000,
+      "discountedPrice": 8000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1000,
+      "maxChild": 2,
+      "childPrice": 500,
+      "petAllowed": false,
+      "villaDetails": [
+        "2 BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:46:15.843Z",
+      "updatedAt": "2023-09-09T19:52:42.763Z",
+      "__v": 0,
+      "desc": "<p><strong>Alpha Villa - A Cozy 2-BHK Retreat in Lonavala</strong><br>&nbsp;</p><p>Welcome to Alpha Villa, a charming 2-bedroom retreat located in the serene beauty of Lonavala, India. This delightful villa, exclusively presented by BeingStay, offers a range of amenities to ensure your stay is comfortable and memorable.</p><p><br><strong>Address:</strong> Lonavala, India</p><p><br><strong>Property Features:</strong></p><p><br><strong>Entire Home:</strong> Enjoy the privacy and convenience of the entire 232 m² home to yourself.</p><p>&nbsp;</p><p><strong>Kitchen:</strong> A fully equipped kitchen is available, allowing you to prepare your meals at your convenience.</p><p>&nbsp;</p><p><strong>View:</strong> Alpha Villa offers scenic views that provide a serene backdrop for your stay.</p><p>&nbsp;</p><p><strong>Garden:</strong> Relax amidst the lush greenery of the garden, creating a peaceful atmosphere.</p><p><br><strong>Pets Allowed:</strong> Bring along your furry companions, as Alpha Villa is a pet-friendly retreat.</p><p><br><strong>Swimming Pool:</strong> Take a refreshing dip in the swimming pool, perfect for a relaxing afternoon.</p><p>&nbsp;</p><p><strong>Free WiFi:</strong> Stay connected with complimentary Wi-Fi available throughout the villa.</p><p><br><strong>Terrace:</strong> Enjoy the outdoors and take in the views from the terrace.</p><p><br><strong>Balcony:</strong> The villa features a balcony, providing an additional outdoor space to unwind.</p><p><br>Alpha Villa in Lonavala offers a cozy and tranquil escape for couples or small groups.&nbsp;<br><br>Book your stay now and immerse yourself in the comfort and charm of Alpha Villa, exclusively presented by BeingStay.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc316cc46bd2c4a5291086",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "promotion": {
+        "bestRated": true,
+        "new": true
+      },
+      "_id": "64fc316cc46bd2c4a5291085",
+      "name": "Lighthouse Villa - 6 BHK",
+      "slug": "lighthouse-villa-6-bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765629-a4e5216f9b2499b62cc96b33e297256a.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765632-cc289b106a8f8527ba06c93cc42c594e.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765631-f5417312083b0d03cf127ea22a44da2f.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765632-872611bb0842a6768901d047ed7fa52d.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765631-24224c616d2837bb83e8baee0e940649.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765632-0e0386b00e264ad405774fd4ae61b762.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765632-66c6492153e79510837a68e0d0148bef.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765632-38f66e5097f269d0f124f849feada72e.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765631-5382d75e8fbc7d68a60355ad3467ded0.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765633-1e5f11ffb7ca9a1c4851872419ad7710.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694289765631-3de0348646493d69a7d1c441ea642b1e.jpeg"
+      ],
+      "address": " Container Wadi, Near Chhota Talab Sasawane Digodi, Mandwa, Maharashtra 402201",
+      "googleMapsLink": "https://goo.gl/maps/7zb4AzqCwVmwcoQs8",
+      "locationId": "64fc239fc46bd2c4a5290bfe",
+      "basePrice": 30000,
+      "discountedPrice": 15000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "6 BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T08:48:44.935Z",
+      "updatedAt": "2023-09-09T20:09:07.373Z",
+      "__v": 0,
+      "desc": "<p><strong>Lighthouse Villa - A Spacious 6-BHK Retreat in Alibaug</strong></p><p><br>Discover the grandeur of Lighthouse Villa, an expansive 6-bedroom villa nestled in the tranquil beauty of Alibaug. This remarkable villa, exclusively presented by BeingStay, offers a host of amenities to ensure a comfortable and memorable stay.</p><p><br><strong>Location:</strong> Alibaug</p><p><br><strong>Common Spaces:</strong></p><p><br><strong>Big Swimming Pool:</strong> Immerse yourself in the large swimming pool, perfect for leisurely swims and relaxation.</p><p><br><strong>Play Area Outside:</strong> Enjoy outdoor play activities in the dedicated play area.</p><p><br><strong>Area for Outdoor Sports:</strong> Engage in a variety of outdoor sports and recreational activities within the villa premises.</p><p><br><strong>Living Room with Dining Area:</strong> The villa features a spacious living room with a dining area, ideal for gatherings and meals.</p><p><br><strong>Bedrooms:</strong></p><p><br><strong>6 Bedrooms with Attached Bathrooms:</strong> Each of the 6 bedrooms is equipped with its own attached bathroom for privacy and convenience.</p><p><br><strong>Air Conditioning:</strong> All bedrooms are air-conditioned, ensuring a comfortable and cool environment.</p><p><br><strong>Queen-Sized Beds:</strong> Queen-sized beds in all bedrooms provide a cozy and restful night's sleep.</p><p><br><strong>Other Things to Note:</strong></p><p><br><strong>Free WiFi:</strong> Stay connected with complimentary Wi-Fi available throughout the villa.</p><p><br><strong>In-House Restaurant:</strong> The villa boasts an in-house restaurant, catering to your culinary needs and ensuring a delightful dining experience.</p><p>Lighthouse Villa in Alibaug is the epitome of spaciousness and comfort, offering an ideal retreat for families and groups.&nbsp;<br><br>Book your stay now and experience the grandeur and convenience of Lighthouse Villa, exclusively presented by BeingStay.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc3456c46bd2c4a5291113",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64fc3456c46bd2c4a5291112",
+      "name": "Anjum Villa - 5 BHK",
+      "slug": "anjum-villa-5-bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236954-1a8152233e37dea53cb38d667a966c01.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236954-11534983fa6afadd054563aff36530cb.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236955-ab8ac899b820ca3da3bb58cdc9e07e5e.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236955-1f9b864d9340447d67df324ac997cb29.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236955-2c174b9f0a0ab790f358fe3c8068cf89.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236954-b0faa3763ca8559f1080f9d6a5edc6c8.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236954-e3c08b4e9260168424b3cde17d455740.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236954-2522b6458f69075bc573694a4781f546.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236954-609748d090f3117adbf2a9b3be612ff3.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236952-1865043d9ce801a4aa170639157b82d2.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290236955-66e70fedef7fe2c2fe283413e3ecb23c.jpeg"
+      ],
+      "address": "Address- Plot 35, Gutt No. 88, Karandoli Village, Waksai, Lonavala - 410 405",
+      "googleMapsLink": "https://goo.gl/maps/FV8F69TXAMKn8VxS9",
+      "locationId": "64fc045fc46bd2c4a5290a28",
+      "basePrice": 30000,
+      "discountedPrice": 20000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "5 BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T09:01:10.540Z",
+      "updatedAt": "2023-09-09T20:10:37.211Z",
+      "__v": 0,
+      "desc": "<p><strong>ANJUM VILLA - A Luxurious 3-BHK Retreat in Lonavala</strong></p><p>Experience opulence and comfort at Anjum Villa, a splendid 3-bedroom villa nestled in the scenic beauty of Lonavala. This fully furnished villa, exclusively presented by BeingStay, offers a wide array of amenities to make your stay truly exceptional.</p><p><br><strong>Address:</strong> Lonavala</p><p><br><strong>Amenities:</strong></p><p><br><strong>3BHK Fully Furnished Villa:</strong> Anjum Villa is a spacious and well-appointed 3-bedroom villa, ensuring a comfortable and memorable stay.</p><p>&nbsp;</p><p><strong>AC in all 3 Bedrooms:</strong> Each of the three bedrooms is equipped with air conditioning for your comfort.</p><p>&nbsp;</p><p><strong>4 Bathrooms:</strong> Anjum Villa features four bathrooms for added convenience.</p><p>&nbsp;</p><p><strong>Private Swimming Pool (12' x 24'):</strong> Take a refreshing dip in the private swimming pool, perfect for relaxation and enjoyment.</p><p>&nbsp;</p><p><strong>Fully Equipped Kitchen:</strong> A fully equipped kitchen is at your disposal, allowing you to prepare your meals with ease.</p><p><br><strong>Private Garden Area:</strong> Relax amidst the serene beauty of the private garden area.</p><p>&nbsp;</p><p><strong>Parking Area:</strong> Enjoy the convenience of a designated parking area.</p><p>&nbsp;</p><p><strong>Capacity up to 12 Guests:</strong> The villa comfortably accommodates up to 12 guests, making it ideal for families and groups.</p><p>&nbsp;</p><p><strong>Extra Mattresses:</strong> Additional mattresses are available to accommodate extra guests.</p><p><br><strong>Geysers for Hot Water:</strong> Hot water is readily available with geysers in place.</p><p><br><strong>Portable BT Music System:</strong> Enjoy your favorite music with a portable Bluetooth music system.</p><p><br><strong>LED TV with DishTV Connection:</strong> Stay entertained with an LED TV featuring DishTV connection.</p><p>&nbsp;</p><p><strong>Wi-Fi Available:</strong> Stay connected with complimentary Wi-Fi.</p><p><br><strong>Water Purifier for Drinking Water:</strong> A water purifier is provided for safe drinking water.</p><p>&nbsp;</p><p><strong>Inverter for Power Backup:</strong> The villa has an inverter for power backup.</p><p>&nbsp;</p><p><strong>Games (Carrom, Playing Cards):</strong> Engage in indoor games such as carrom and playing cards.</p><p><br><strong>BBQ Grill Available:</strong> Host a barbecue night with the available BBQ grill.</p><p>&nbsp;</p><p><strong>Caretaker Available:</strong> A caretaker is on hand to assist with your needs, ensuring a comfortable stay.</p><p><br>Anjum Villa in Lonavala is the perfect blend of luxury and convenience, offering a delightful retreat for your vacation.&nbsp;<br>&nbsp;</p><p>Book your stay now and experience the comfort and charm of Anjum Villa, exclusively presented by BeingStay.</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "Being Stay",
+        "phone": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64fc34f4c46bd2c4a529115b",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64fc34f4c46bd2c4a529115a",
+      "name": "Green Villa Ivy - 5 BHK",
+      "slug": "green-villa-ivy-5-bhk",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597993-0bc8ba95b0c642fb19d53b9c671d27c3.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597993-ea304ac003eafa2628e7db7596b681d8.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597992-22babb36631412cf896ad52da1f61034.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597991-f89ee62371d879e73b64a3adadeeee56.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597994-2f542495bdd661343f9f6e21fe6e1d40.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597994-ea5958bc08f9094a27b6be4293c151ed.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597995-130f36c560154f489b4958f76188a5f4.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597994-008b743fbfa583fcc356090c213f5ddd.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597994-158158d8f4abe439074397e41be0a339.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597995-0815a5ec2ec4b9c629d6e08c44192f11.jpeg",
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1694290597993-78901815b62d46dc325ab57ebbfbee21.jpeg"
+      ],
+      "address": "Alibag - Revas Rd, Chondhi, Maharashtra 402201",
+      "googleMapsLink": "https://goo.gl/maps/nbTQjNGAhvVUzysZ7",
+      "locationId": "64fc239fc46bd2c4a5290bfe",
+      "basePrice": 35000,
+      "discountedPrice": 11000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "maxChild": 2,
+      "childPrice": 1000,
+      "petAllowed": false,
+      "villaDetails": [
+        "5 BHK"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-09T09:03:48.567Z",
+      "updatedAt": "2023-09-12T10:03:54.380Z",
+      "__v": 0,
+      "desc": "<p><strong>Green Villa Ivy - A Luxurious 5-BHK Retreat in Alibaug</strong><br>&nbsp;</p><p>Indulge in the serenity of Green Villa Ivy, an exquisite 5-bedroom villa located in the picturesque surroundings of Alibaug. This splendid villa, exclusively presented by BeingStay, offers a wide array of facilities and amenities to ensure a comfortable and memorable stay.</p><p><br><strong>Location:</strong> Alibaug</p><p>&nbsp;</p><p><strong>Facilities:</strong></p><p>&nbsp;</p><p><strong>Parking:</strong> Enjoy the convenience of parking facilities.</p><p><br><strong>Restaurant:</strong> Dine in style at the on-site restaurant.</p><p>&nbsp;</p><p><strong>Pets Allowed:</strong> Bring along your furry companions as Green Villa Ivy is a pet-friendly haven.</p><p><br><strong>Garden:</strong> Relax amidst the lush greenery of the garden, creating a peaceful atmosphere.</p><p>&nbsp;</p><p><strong>Terrace:</strong> Take in the scenic views and unwind on the terrace.</p><p>&nbsp;</p><p><strong>Family Rooms:</strong> Spacious family rooms are available for your comfort.</p><p>&nbsp;</p><p><strong>Games Room:</strong> Engage in indoor games in the dedicated games room.</p><p>&nbsp;</p><p><strong>Free Parking:</strong> Benefit from free parking facilities.</p><p><br><strong>Internet Services:</strong> Stay connected with internet services.</p><p><br><strong>Darts:</strong> Enjoy a game of darts for added entertainment.</p><p><br><strong>BBQ Facilities:</strong> Host a barbecue night with the available BBQ facilities.</p><p><br><strong>WiFi:</strong> Stay connected with complimentary Wi-Fi.</p><p><br><strong>Outdoor Pool:</strong> Take a dip in the outdoor pool and bask in the natural beauty.</p><p><br><strong>Non-Smoking Throughout:</strong> The villa ensures a non-smoking environment for your comfort.</p><p><br><strong>Air Conditioning:</strong> Enjoy climate control with air conditioning.</p><p>&nbsp;</p><p><strong>Sun Terrace:</strong> Soak up the sun's warmth on the sun terrace.</p><p>&nbsp;</p><p><strong>Outdoor Pool (All Year):</strong> The outdoor pool is available year-round for your enjoyment.</p><p>&nbsp;</p><p><strong>Shared Kitchen:</strong> A shared kitchen is available for your culinary needs.</p><p>&nbsp;</p><p><strong>Shared Lounge/TV Area:</strong> Relax and unwind in the shared lounge/TV area.</p><p><br><strong>Daily Maid Service:</strong> Enjoy daily maid service for added convenience.</p><p>&nbsp;</p><p><strong>On-Site Parking:</strong> Benefit from on-site parking facilities.</p><p>&nbsp;</p><p><strong>Private Parking:</strong> Private parking is available for guests.</p><p><br><strong>Board Games/Puzzles:</strong> Engage in board games and puzzles for family fun.</p><p>&nbsp;</p><p><strong>Indoor Play Area:</strong> Kids can have a blast in the indoor play area.</p><p>&nbsp;</p><p><strong>Kids' Outdoor Play Equipment:</strong> The villa offers outdoor play equipment for kids.</p><p>&nbsp;</p><p><strong>Children Television Networks:</strong> Kids' entertainment is provided with children's television networks.</p><p>&nbsp;</p><p><strong>Infinity Pool:</strong> Take a dip in the infinity pool for a unique swimming experience.</p><p>&nbsp;</p><p><strong>Pool with View:</strong> Enjoy the pool with a view, creating a serene ambiance.</p><p>&nbsp;</p><p>Green Villa Ivy in Alibaug is a haven of comfort and entertainment, offering a delightful retreat for families and groups.&nbsp;<br><br>Book your stay now and experience the luxury and convenience of Green Villa Ivy, exclusively presented by BeingStay.</p><p>&nbsp;</p>"
+    },
+    {
+      "hostInfo": {
+        "name": "VINAY",
+        "phone": "9479645508",
+        "email": ""
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "650d7d85e38b0d25473b163b",
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationDocument": "",
+        "verificationFailReason": ""
+      },
+      "_id": "650d7d85e38b0d25473b163a",
+      "name": "TBD 5BHK VILLA LONAVALA",
+      "slug": "tbd-5bhk-villa-lonavala",
+      "images": [
+        "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/villas/1695383742139-7784162aa419a5b98c8acee9460e5b7b.jpg"
+      ],
+      "address": "Gold Valley, Lonavala, Maharashtra 410401",
+      "googleMapsLink": "",
+      "locationId": "64fc045fc46bd2c4a5290a28",
+      "basePrice": 30000,
+      "discountedPrice": 28000,
+      "minGuest": 10,
+      "maxGuest": 26,
+      "extraGuestPrice": 0,
+      "maxChild": 10,
+      "childPrice": 0,
+      "petAllowed": true,
+      "villaDetails": [],
+      "amenities": [],
+      "icalLinks": [],
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "reviewsAllowed": true,
+      "minimumPriceToBook": 100,
+      "bookingAllowed": true,
+      "block": false,
+      "trash": false,
+      "createdAt": "2023-09-22T11:41:57.441Z",
+      "updatedAt": "2023-09-22T11:55:42.377Z",
+      "__v": 0,
+      "desc": ""
+    }
+  ],
+  "seasonalpricings": [],
+  "coupons": [
+    {
+      "_id": "64ff50d82b62249fe01532c3",
+      "couponCode": "Trial",
+      "shortDesc": "Trial",
+      "type": "regular",
+      "validOn": "all",
+      "priceType": "flat",
+      "priceIn": "percentage",
+      "price": 100,
+      "maxUses": 1,
+      "allowMultipleUses": true,
+      "usedByUsers": [
+        "64fbb7bdb65878ce5e4aa07f"
+      ],
+      "expirationDate": "2023-09-12T00:00:00.000Z",
+      "status": true,
+      "makePublic": false,
+      "trash": false,
+      "createdAt": "2023-09-11T17:39:36.627Z",
+      "updatedAt": "2023-09-11T19:27:45.175Z",
+      "__v": 0
+    }
+  ],
+  "addons": [],
+  "amenities": [
+    {
+      "_id": "64fc264ec46bd2c4a5290cfe",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694246478779-dd3766db45482e5a5534c428c43bc48e.png",
+      "name": "AC",
+      "createdAt": "2023-09-09T08:01:18.896Z",
+      "updatedAt": "2023-09-09T08:01:18.896Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fc2658c46bd2c4a5290d02",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694246488571-957899906469190c74939a393f7e75be.png",
+      "name": "WiFi",
+      "createdAt": "2023-09-09T08:01:28.659Z",
+      "updatedAt": "2023-09-09T08:01:28.659Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fc2663c46bd2c4a5290d06",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694246499167-a3f9cfb866031570ae38c2018a7c8668.png",
+      "name": "Housekeeping",
+      "createdAt": "2023-09-09T08:01:39.284Z",
+      "updatedAt": "2023-09-09T08:01:39.284Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fc266dc46bd2c4a5290d0a",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694246509691-483a58212508653622ed38bb485e7f5c.png",
+      "name": "Board Games",
+      "createdAt": "2023-09-09T08:01:49.778Z",
+      "updatedAt": "2023-09-09T08:01:49.778Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fc2676c46bd2c4a5290d0e",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694246517980-39060af3297d3386f75d644dd20e239b.png",
+      "name": "Kitchen",
+      "createdAt": "2023-09-09T08:01:58.054Z",
+      "updatedAt": "2023-09-09T08:01:58.054Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fec498a3e3b476d78e0b29",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694418072249-6821476e0c1983ef55986d3211a861d7.jpg",
+      "name": "View",
+      "createdAt": "2023-09-11T07:41:12.449Z",
+      "updatedAt": "2023-09-11T07:41:12.449Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fec4cca3e3b476d78e0b2f",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694418124532-53d5910df084e6e9b0e35e06f913eab0.jfif",
+      "name": "Flat-screen TV",
+      "createdAt": "2023-09-11T07:42:04.688Z",
+      "updatedAt": "2023-09-11T07:42:04.688Z",
+      "__v": 0
+    },
+    {
+      "_id": "64fec584a3e3b476d78e0b34",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/amenities/1694418308501-6c52729e75933d6306d52a9be1768622.png",
+      "name": "Private pool",
+      "createdAt": "2023-09-11T07:45:08.707Z",
+      "updatedAt": "2023-09-11T07:45:08.707Z",
+      "__v": 0
+    }
+  ],
+  "contacts": [],
+  "payments": [
+    {
+      "razorpay": {
+        "orderId": "order_MauofKIcQwcCWF",
+        "paymentId": "Upi"
+      },
+      "_id": "64fea78ca3e3b476d78e0269",
+      "type": "normal",
+      "src": "razorpay",
+      "userId": "64fea756a3e3b476d78e020b",
+      "paidFor": "villa",
+      "villaId": "64fc2e1ec46bd2c4a5290f00",
+      "villaBookingId": "64fea78ca3e3b476d78e0266",
+      "range": "pre",
+      "price": 10000,
+      "status": "pending",
+      "trash": false,
+      "createdAt": "2023-09-11T05:37:16.151Z",
+      "updatedAt": "2023-09-12T10:20:31.471Z",
+      "__v": 0,
+      "paymentDate": "2023-09-12T00:00:00.000Z",
+      "paymentNote": ""
+    },
+    {
+      "razorpay": {
+        "orderId": "order_Mawdrl4iE15ZtU"
+      },
+      "_id": "64fec0a9a3e3b476d78e07df",
+      "type": "normal",
+      "src": "razorpay",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "paidFor": "villa",
+      "villaId": "64fc2f1bc46bd2c4a5290ff6",
+      "villaBookingId": "64fec0a9a3e3b476d78e07dc",
+      "range": "pre",
+      "price": 45000,
+      "status": "pending",
+      "trash": false,
+      "createdAt": "2023-09-11T07:24:25.970Z",
+      "updatedAt": "2023-09-11T07:24:25.970Z",
+      "__v": 0
+    },
+    {
+      "razorpay": {
+        "orderId": "order_Mb8A5YI0cGHVTG"
+      },
+      "_id": "64ff5f212b62249fe0153655",
+      "type": "normal",
+      "src": "razorpay",
+      "userId": "64fbb7bdb65878ce5e4aa07f",
+      "paidFor": "villa",
+      "villaId": "64fc2e1ec46bd2c4a5290f00",
+      "villaBookingId": "64ff5f212b62249fe0153652",
+      "range": "full",
+      "price": 10000,
+      "status": "pending",
+      "trash": false,
+      "createdAt": "2023-09-11T18:40:33.667Z",
+      "updatedAt": "2023-09-11T18:40:33.667Z",
+      "__v": 0
+    }
+  ],
+  "taxes": [],
+  "villabookings": [
+    {
+      "mainGuestInfo": {
+        "name": "leela Sen",
+        "email": "leelasen1977@gmail.com",
+        "phone": "7000282881"
+      },
+      "guests": {
+        "adults": 7,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 30000,
+        "discountedPrice": 15000,
+        "extraGuestPrice": 1500,
+        "childPrice": 1000
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 15000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 18000,
+          "full": 18000
+        },
+        "totalNights": 1,
+        "perNightPrice": 33000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "64fc34f4c46bd2c4a529115b"
+          }
+        ]
+      },
+      "_id": "650036cc07ac8c993ec201ef",
+      "src": "other",
+      "srcDesc": "Booking.com",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "villaId": "64fc34f4c46bd2c4a529115a",
+      "checkIn": "2023-09-12T18:30:00.000Z",
+      "checkOut": "2023-09-13T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-12T10:00:44.209Z",
+      "updatedAt": "2023-09-12T10:04:52.291Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "rajeeb dhar",
+        "email": "rajeebdhar060@gmail.com",
+        "phone": "7000282881"
+      },
+      "guests": {
+        "adults": 6,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 16000,
+        "discountedPrice": 8000,
+        "extraGuestPrice": 1000,
+        "childPrice": 500
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 8000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 9000,
+          "full": 9000
+        },
+        "totalNights": 1,
+        "perNightPrice": 17000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "64fc30d7c46bd2c4a529105f"
+          }
+        ]
+      },
+      "_id": "6500383107ac8c993ec2026b",
+      "src": "other",
+      "srcDesc": "booking.com",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "villaId": "64fc30d7c46bd2c4a529105e",
+      "checkIn": "2023-09-13T18:30:00.000Z",
+      "checkOut": "2023-09-14T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-12T10:06:41.126Z",
+      "updatedAt": "2023-09-12T10:06:41.126Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "GOVIND SEN",
+        "email": "govindsen234@gmail.com",
+        "phone": "7000028287"
+      },
+      "guests": {
+        "adults": 9,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 25000,
+        "discountedPrice": 15000,
+        "extraGuestPrice": 1500,
+        "childPrice": 1000
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 10000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 21000,
+          "full": 21000
+        },
+        "totalNights": 1,
+        "perNightPrice": 31000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "64fc2aa1c46bd2c4a5290e02"
+          }
+        ]
+      },
+      "_id": "650039a707ac8c993ec202af",
+      "src": "other",
+      "srcDesc": "Direct",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "villaId": "64fc2aa1c46bd2c4a5290e01",
+      "checkIn": "2023-09-21T18:30:00.000Z",
+      "checkOut": "2023-09-22T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-12T10:12:55.990Z",
+      "updatedAt": "2023-09-12T10:12:55.990Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "VINAY ARYA",
+        "email": "vinayarya96@gmail.com",
+        "phone": "9479645508"
+      },
+      "guests": {
+        "adults": 5,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 16000,
+        "discountedPrice": 8000,
+        "extraGuestPrice": 1000,
+        "childPrice": 500
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 8000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 8000,
+          "full": 8000
+        },
+        "totalNights": 1,
+        "perNightPrice": 16000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "64fc30d7c46bd2c4a529105f"
+          }
+        ]
+      },
+      "_id": "6501539807ac8c993ec2058a",
+      "src": "other",
+      "srcDesc": "Offline Booking",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "villaId": "64fc30d7c46bd2c4a529105e",
+      "checkIn": "2023-09-19T18:30:00.000Z",
+      "checkOut": "2023-09-20T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-13T06:15:52.481Z",
+      "updatedAt": "2023-09-13T06:15:52.481Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Mohit Kumawat",
+        "email": "mohitkumawat310@gmail.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 5,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 25000,
+        "discountedPrice": 15000,
+        "extraGuestPrice": 1500,
+        "childPrice": 1000
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 20000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 30000,
+          "full": 30000
+        },
+        "totalNights": 2,
+        "perNightPrice": 25000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "64fc2987c46bd2c4a5290db9"
+          }
+        ]
+      },
+      "_id": "65048a2e3488383aef632158",
+      "src": "panel",
+      "userId": "64fbb7bdb65878ce5e4aa07f",
+      "villaId": "64fc2987c46bd2c4a5290db8",
+      "checkIn": "2023-09-14T18:30:00.000Z",
+      "checkOut": "2023-09-16T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-15T16:45:34.378Z",
+      "updatedAt": "2023-09-15T16:55:07.094Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "LOKENDRA",
+        "email": "lokendragehlot89@gmail.com",
+        "phone": "8602818849"
+      },
+      "guests": {
+        "adults": 7,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 16000,
+        "discountedPrice": 8000,
+        "extraGuestPrice": 1000,
+        "childPrice": 500
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 8000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 10000,
+          "full": 10000
+        },
+        "totalNights": 1,
+        "perNightPrice": 18000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "64fc30d7c46bd2c4a529105f"
+          }
+        ]
+      },
+      "_id": "650561f2e38b0d25473b110a",
+      "src": "panel",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "villaId": "64fc30d7c46bd2c4a529105e",
+      "checkIn": "2023-09-21T18:30:00.000Z",
+      "checkOut": "2023-09-22T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-16T08:06:10.280Z",
+      "updatedAt": "2023-09-16T08:07:31.709Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Lokendra ",
+        "email": "lokendrasen234@gmail.com",
+        "phone": "7000282881"
+      },
+      "guests": {
+        "adults": 7,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 25000,
+        "discountedPrice": 15000,
+        "extraGuestPrice": 1500,
+        "childPrice": 1000
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 10000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 15000,
+          "full": 15000
+        },
+        "totalNights": 1,
+        "perNightPrice": 28000,
+        "directDiscount": 3000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "64fc2c28c46bd2c4a5290e54"
+          }
+        ]
+      },
+      "_id": "650d7f8ee38b0d25473b1839",
+      "src": "panel",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "villaId": "64fc2c28c46bd2c4a5290e53",
+      "checkIn": "2023-09-26T18:30:00.000Z",
+      "checkOut": "2023-09-27T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-22T11:50:38.892Z",
+      "updatedAt": "2023-09-22T11:50:38.892Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "LALIT",
+        "email": "LALIT00@GMAIL.COM",
+        "phone": "916362599158"
+      },
+      "guests": {
+        "adults": 11,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 30000,
+        "discountedPrice": 28000,
+        "extraGuestPrice": 0,
+        "childPrice": 0
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponDiscount": {
+            "couponCode": "",
+            "price": "0"
+          },
+          "totalPriceDiscount": 2000
+        },
+        "taxes": {
+          "appliedTaxes": [],
+          "totalTaxPrice": 0
+        },
+        "addons": {
+          "appliedAddons": [],
+          "totalAddonPrice": 0
+        },
+        "appliedMinimumPrice": {
+          "minimumPriceToBook": 100,
+          "setBy": "Villa owner"
+        },
+        "priceToBePaid": {
+          "minimum": 28000,
+          "full": 28000
+        },
+        "totalNights": 1,
+        "perNightPrice": 30000
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "daysBeforeCheckIn": 3,
+            "refundablePrice": 12,
+            "_id": "650d7d85e38b0d25473b163b"
+          }
+        ]
+      },
+      "_id": "650d7f94e38b0d25473b1845",
+      "src": "other",
+      "srcDesc": "Offline Booking",
+      "userId": "64fc007ec46bd2c4a52909c2",
+      "villaId": "650d7d85e38b0d25473b163a",
+      "checkIn": "2023-10-31T18:30:00.000Z",
+      "checkOut": "2023-11-01T18:30:00.000Z",
+      "status": "confirmed",
+      "trash": false,
+      "createdAt": "2023-09-22T11:50:44.861Z",
+      "updatedAt": "2023-09-22T11:51:16.326Z",
+      "__v": 0
+    }
+  ],
+  "hotels": []
+}

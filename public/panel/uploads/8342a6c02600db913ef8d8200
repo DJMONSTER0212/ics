@@ -1,0 +1,1783 @@
+{
+  "settings": [
+    {
+      "website": {
+        "info": {
+          "inquiryMail": "support@beingstay.com",
+          "inquiryPhone": "+918602818849",
+          "address": "Mumbai, Maharashtra",
+          "footerPara": "<p>Find your perfect stay hassle-free with our curated hotel selection and best deals. Book your dream getaway with just a few clicks and travel more, worry less with our trusted booking services.</p>"
+        },
+        "social": {
+          "facebook": "a",
+          "instagram": "https://www.instagram.com/mohitkumawat310",
+          "twitter": "https://twitter.com/mohitkumawat310",
+          "peerlist": "v",
+          "linkedin": "f",
+          "youtube": "f",
+          "google": "f"
+        },
+        "seoInfo": {
+          "title": "BeingStay",
+          "metaDesc": "One Stop Stays Destination"
+        },
+        "name": "BeingStay",
+        "lightLogo": "https://ths-website.s3.ap-south-1.amazonaws.com/public/website/1687864316715-6124e42da54b240de17efc34a9538138.webp",
+        "darkLogo": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/website/1691445433444-af677e5491e248dbb1d13283862f9e64.png",
+        "companyName": "Try",
+        "fevicon": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/website/1691445239653-7b4cfe9e4ed4dd90991ac9ff7c5620b1.webp"
+      },
+      "policy": {
+        "refundPolicy": "<p>Write your p</p><p>olicy here</p><h2><strong>Yes</strong></h2>",
+        "privacyPolicy": "<p>Write your policy here</p><p><strong>Yes</strong></p>",
+        "TermAndConditions": "<p>Write your policy here</p><p><strong>Yes</strong></p>"
+      },
+      "login": {
+        "otpMailTemplate": 1,
+        "linkMailTemplate": 1,
+        "verificationMethod": "otp"
+      },
+      "tnit": {
+        "limitMaxVillas": true,
+        "maxVillas": 8,
+        "limitMaxHotels": true,
+        "maxHotels": 5,
+        "multiVendorAllowed": true,
+        "limitMaxVendors": true,
+        "maxVendors": 5,
+        "activateWebsite": false
+      },
+      "admin": {
+        "property": {
+          "autoVerifyVilla": true,
+          "autoVerifyHotel": true,
+          "letOwnerManageReviews": false,
+          "reviewsAllowed": true,
+          "onlyUsersWithBookingAllowed": true
+        },
+        "booking": {
+          "enableBookingsVilla": true,
+          "enableBookingsHotel": true,
+          "letOwnerManageMinimumPaymentToBook": true,
+          "minimumPaymentToBook": 100
+        },
+        "payout": {
+          "enablePayout": true,
+          "payoutDay": "monday",
+          "applyTds": false,
+          "tdsAmount": "2.5",
+          "applyCommission": true,
+          "commissionAmount": "2.5"
+        },
+        "cancellation": {
+          "letOwnerManageCancellation": true,
+          "allowCancellation": true,
+          "cancellationRules": [
+            {
+              "daysBeforeCheckIn": 5,
+              "refundableAmount": 10,
+              "_id": "6479951d4a2acb43c158d3a0"
+            },
+            {
+              "daysBeforeCheckIn": 60,
+              "refundableAmount": 100,
+              "_id": "648eb1e5e17fe1e2ca4851aa"
+            }
+          ]
+        },
+        "gateway": {
+          "currencyCode": "INR"
+        }
+      },
+      "_id": "647467acd5dd6015912231b5",
+      "createdAt": "2023-05-29T08:51:56.904Z",
+      "updatedAt": "2023-08-07T21:57:14.010Z",
+      "__v": 0
+    }
+  ],
+  "users": [
+    {
+      "_id": "645c2de0ef0e825c9ce2092b",
+      "name": "Mohit Kumawat",
+      "email": "mohitkumawat310@gmail.com",
+      "image": "https://coolify-tnit-site.s3.ap-south-1.amazonaws.com/public/beingstay/users/1691275472349-4bd84c5b5731d93cc2d4477f20378294.jpg",
+      "block": false,
+      "verified": true,
+      "role": "admin",
+      "createdAt": "2023-05-10T23:50:56.027Z",
+      "updatedAt": "2023-08-05T22:44:32.885Z",
+      "__v": 0,
+      "password": "$2b$10$8OOGE0PSCpVLHp4XeiwriuBN7S8ZXtD8wRTNKoZ6IAjoQtTDlwb5i",
+      "anniversary": "2023-06-23T00:00:00.000Z",
+      "dob": "2023-06-06T00:00:00.000Z",
+      "phone": "9057965596"
+    },
+    {
+      "_id": "645c2e65ef0e825c9ce20970",
+      "name": "Mohit Kumawat",
+      "email": "mohit.tnit@gmail.com",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "role": "tnit",
+      "createdAt": "2023-05-10T23:53:09.804Z",
+      "updatedAt": "2023-05-10T23:53:41.603Z",
+      "__v": 0,
+      "password": "$2b$10$.3.Skd5vtUyuEYxo07d/yOLa9eefTYFogducmRIYjKbsQfQ0998cm",
+      "phone": "1234"
+    },
+    {
+      "_id": "645c2e9cef0e825c9ce20994",
+      "name": "Vendor",
+      "email": "vendor@vendor.com",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$Hn0djNA9HULSfj6HmuPi3OcAgT4181VN32SzuVjJ55fAg.Pj/VRCu",
+      "role": "user",
+      "createdAt": "2023-05-10T23:54:04.971Z",
+      "updatedAt": "2023-05-14T21:44:34.036Z",
+      "__v": 0
+    },
+    {
+      "_id": "6461d854e42f21499cf06a93",
+      "name": "BeingStay",
+      "email": "contact@beingstay.com",
+      "phone": "9876543210",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$nUdLG7N1YD8bfBk1nTeHKO9TNO2rL71znk7EVb4JfC5fkyms480NK",
+      "role": "admin",
+      "createdAt": "2023-05-15T06:59:32.849Z",
+      "updatedAt": "2023-07-10T06:06:17.104Z",
+      "__v": 0
+    },
+    {
+      "_id": "6461d875e42f21499cf06a9a",
+      "name": "Chiraag Malkani",
+      "email": "chiraag@tnit.in",
+      "phone": "8652290746",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/users/1685131082617-1ee79cd388ab6b6922d0e69bbcaa4c7c.webp",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$WKLEjrYgiWjhPTyyBX51XuRbncaSKZNjj1ZTLlHE3oqWnNBoRoLdG",
+      "role": "tnit",
+      "createdAt": "2023-05-15T07:00:05.831Z",
+      "updatedAt": "2023-05-26T19:58:02.968Z",
+      "__v": 0
+    },
+    {
+      "_id": "646a830e6ef6b2acc82a68c1",
+      "name": "Rajesh",
+      "email": "rahul@gmail.com",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "password": "$2b$10$JkAY7PRMmU8ZeKNMvZ549ePEPsCoCW7RCy22R8Gmce7BR9/4X81Pm",
+      "role": "user",
+      "createdAt": "2023-05-21T20:46:06.109Z",
+      "updatedAt": "2023-05-21T20:46:06.109Z",
+      "__v": 0
+    },
+    {
+      "_id": "64a972be37fd736897d49494",
+      "name": "Chiraag Malkani",
+      "email": "Chiraag.tnit@gmail.com",
+      "image": "/panel/images/newUser.webp",
+      "block": false,
+      "verified": true,
+      "otp": "209891",
+      "password": "$2b$10$1HBAD5U2D1whE88pTCGE/ee3kTPlqaYWhZf7h1Kx7z/hXu6lOvTVy",
+      "role": "user",
+      "createdAt": "2023-07-08T14:29:18.924Z",
+      "updatedAt": "2023-07-08T14:34:42.989Z",
+      "__v": 0
+    }
+  ],
+  "addons": [],
+  "amenities": [
+    {
+      "_id": "645c33bbef0e825c9ce20a7b",
+      "image": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" className=\"bi bi-wifi\" viewBox=\"0 0 16 16\">\r\n  <path d=\"M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z\"/>\r\n  <path d=\"M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z\"/>\r\n</svg>",
+      "name": "Wifi",
+      "createdAt": "2023-05-11T00:15:55.923Z",
+      "updatedAt": "2023-06-16T08:06:20.048Z",
+      "__v": 0
+    },
+    {
+      "_id": "645c33dcef0e825c9ce20a80",
+      "image": "<svg xmlns=\"http://www.w3.org/2000/svg\"  fill=\"currentColor\" className=\"bi bi-tv\" viewBox=\"0 0 16 16\">\r\n  <path d=\"M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z\"/>\r\n</svg>",
+      "name": "TV",
+      "createdAt": "2023-05-11T00:16:28.005Z",
+      "updatedAt": "2023-06-16T08:06:02.424Z",
+      "__v": 0
+    },
+    {
+      "_id": "645c3476ef0e825c9ce20a89",
+      "image": "<svg xmlns=\"http://www.w3.org/2000/svg\"  fill=\"currentColor\" className=\"bi bi-car-front-fill\" viewBox=\"0 0 16 16\">\r\n  <path d=\"M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z\"/>\r\n</svg>",
+      "name": "Transport",
+      "createdAt": "2023-05-11T00:19:02.765Z",
+      "updatedAt": "2023-06-16T08:06:10.226Z",
+      "__v": 0
+    },
+    {
+      "_id": "645c34ceef0e825c9ce20a8f",
+      "image": "<svg xmlns=\"http://www.w3.org/2000/svg\"  fill=\"currentColor\" className=\"bi bi-credit-card\" viewBox=\"0 0 16 16\">\r\n  <path d=\"M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z\"/>\r\n  <path d=\"M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z\"/>\r\n</svg>",
+      "name": "ATM",
+      "createdAt": "2023-05-11T00:20:30.812Z",
+      "updatedAt": "2023-06-16T08:05:49.321Z",
+      "__v": 0
+    }
+  ],
+  "contacts": [
+    {
+      "_id": "64d15ea28ed64bc77254997e",
+      "name": "Royal",
+      "email": "dummymohitkumawat310@gmail.com",
+      "phone": "+912589746135",
+      "bookingId": "",
+      "message": "1479",
+      "replied": false,
+      "createdAt": "2023-08-07T21:14:10.876Z",
+      "updatedAt": "2023-08-07T21:14:10.876Z",
+      "__v": 0
+    },
+    {
+      "_id": "64d160a38ed64bc7725499d5",
+      "name": "Mohit Kumawat",
+      "email": "mohitkumawat310@gmail.com",
+      "phone": "09057965596",
+      "bookingId": "JARV",
+      "message": "wjdwdwdwd",
+      "replied": true,
+      "createdAt": "2023-08-07T21:22:43.486Z",
+      "updatedAt": "2023-08-07T21:23:02.343Z",
+      "__v": 0
+    },
+    {
+      "_id": "64d171054ad025a258041fb2",
+      "name": "Mohit Kumawat",
+      "email": "mohitkumawat310@gmail.com",
+      "phone": "09057965596",
+      "bookingId": "",
+      "message": "qw",
+      "replied": false,
+      "createdAt": "2023-08-07T22:32:37.113Z",
+      "updatedAt": "2023-08-07T22:32:37.113Z",
+      "__v": 0
+    },
+    {
+      "_id": "64d171d14ad025a258041fcb",
+      "name": "Mohit",
+      "email": "mohitkumawat310@gmil.com",
+      "phone": "09057965596",
+      "bookingId": "",
+      "message": "",
+      "replied": false,
+      "createdAt": "2023-08-07T22:36:01.770Z",
+      "updatedAt": "2023-08-07T22:36:01.770Z",
+      "__v": 0
+    },
+    {
+      "_id": "64d173a84ad025a258041fe7",
+      "name": "Mohit Kumawat",
+      "email": "mohitkumawat310@gmail.com",
+      "phone": "09057965596",
+      "bookingId": "JARVaaqd",
+      "message": "aqdqd",
+      "replied": false,
+      "createdAt": "2023-08-07T22:43:52.256Z",
+      "updatedAt": "2023-08-07T22:43:52.256Z",
+      "__v": 0
+    }
+  ],
+  "coupons": [
+    {
+      "_id": "6494a2e364ce98456c96f61d",
+      "code": "Jasmine",
+      "shortDesc": "Jasmine",
+      "type": "regular",
+      "validOn": "both",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "amountType": "upto",
+      "amountIn": "percentage",
+      "amount": 10,
+      "maxUses": 233,
+      "usedBy": [],
+      "expirationDate": "2023-07-28T00:00:00.000Z",
+      "status": true,
+      "makePublic": true,
+      "createdAt": "2023-06-22T19:37:07.919Z",
+      "updatedAt": "2023-07-04T01:50:01.342Z",
+      "__v": 0,
+      "userId": "6461d854e42f21499cf06a93",
+      "maxAmount": 500
+    }
+  ],
+  "homepagebanners": [
+    {
+      "_id": "648c08b5f4c4fa42a11b2f3e",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/homepage-banners/1686898866873-5137322da7d4e4dec3d7a0fb6f666f0d.png",
+      "title": "Best & Verified Villas",
+      "createdAt": "2023-06-16T07:01:09.532Z",
+      "updatedAt": "2023-08-07T10:39:27.340Z",
+      "__v": 0,
+      "ctaUrl": "http://localhost:3000/panel/admin/promotions/homepage-banners",
+      "ctaName": "Explore our villas"
+    },
+    {
+      "_id": "648c097df4c4fa42a11b2fb5",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/homepage-banners/1686899067594-053ef3a29230c686dabf3b5bcffc6f36.png",
+      "title": "Our home your home",
+      "createdAt": "2023-06-16T07:04:29.422Z",
+      "updatedAt": "2023-08-04T21:44:55.024Z",
+      "__v": 0,
+      "ctaUrl": ""
+    }
+  ],
+  "hotels": [],
+  "locations": [
+    {
+      "_id": "645c2f3def0e825c9ce209da",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/locations/1685782754081-0f9ee5751dcc0b3354fa80ba08f0db13.png",
+      "name": "Mumbai",
+      "createdAt": "2023-05-10T23:56:45.877Z",
+      "updatedAt": "2023-06-03T08:59:14.461Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "metaDesc": "",
+        "title": ""
+      },
+      "_id": "645c2f43ef0e825c9ce209de",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/locations/1688968634889-4ae8d7624d3568ca76ed85437be1a0cb.jpg",
+      "name": "Kashid",
+      "createdAt": "2023-05-10T23:56:51.810Z",
+      "updatedAt": "2023-07-10T05:57:15.103Z",
+      "__v": 0
+    },
+    {
+      "_id": "645c2f5bef0e825c9ce209ea",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/locations/1685782744662-86783a4492309ca329efafb17487ae5d.png",
+      "name": "Manali",
+      "createdAt": "2023-05-10T23:57:15.883Z",
+      "updatedAt": "2023-06-03T08:59:04.961Z",
+      "__v": 0
+    },
+    {
+      "_id": "645c2f75ef0e825c9ce209f6",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/locations/1685782734770-9fb4426e1bd2056ee41699244dc344b0.png",
+      "name": "Lonavala",
+      "createdAt": "2023-05-10T23:57:41.594Z",
+      "updatedAt": "2023-06-03T08:58:55.065Z",
+      "__v": 0
+    },
+    {
+      "seoInfo": {
+        "metaDesc": "",
+        "title": ""
+      },
+      "_id": "6461d989e42f21499cf06ab7",
+      "image": "https://ths-website.s3.ap-south-1.amazonaws.com/public/locations/1685128801439-52581b8e41b079c3fe1a252534f0c288.png",
+      "name": "Alibaug",
+      "createdAt": "2023-05-15T07:04:41.027Z",
+      "updatedAt": "2023-07-25T21:01:20.206Z",
+      "__v": 0
+    }
+  ],
+  "payments": [
+    {
+      "_id": "64a393f881418ab933dea7aa",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "villaBookingId": "64a393f881418ab933dea7a6",
+      "type": "full",
+      "amount": 2829,
+      "orderId": "order_M9ZuoegoLFSwDd",
+      "status": "failed",
+      "createdAt": "2023-07-04T03:37:28.642Z",
+      "updatedAt": "2023-07-04T23:14:21.271Z",
+      "__v": 0,
+      "paymentDate": "2023-07-04T03:37:57.338Z",
+      "paymentId": "pay_M9Zv8UZwdyZahf"
+    },
+    {
+      "_id": "64a3ad2381418ab933dea91e",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "villaBookingId": "64a3ad2281418ab933dea91a",
+      "type": "pre",
+      "amount": 2715,
+      "orderId": "order_M9bkF9dgzcU0e3",
+      "status": "pending",
+      "createdAt": "2023-07-04T05:24:51.256Z",
+      "updatedAt": "2023-07-04T23:14:16.563Z",
+      "__v": 0,
+      "paymentDate": "2023-07-04T05:25:07.373Z",
+      "paymentId": "pay_M9bkLLaGF6sczm"
+    },
+    {
+      "_id": "64c0368f238f09d69051f800",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "villaBookingId": "64c0368f238f09d69051f7fc",
+      "type": "full",
+      "amount": 82600,
+      "orderId": "order_MIAnwEtRnz1AWl",
+      "status": "pending",
+      "createdAt": "2023-07-25T20:54:39.465Z",
+      "updatedAt": "2023-07-25T20:54:39.465Z",
+      "__v": 0
+    },
+    {
+      "_id": "64c176748187289cbc28f23f",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "villaBookingId": "64c176748187289cbc28f23b",
+      "type": "full",
+      "amount": 84942,
+      "orderId": "order_MIY3iCntD1awTg",
+      "status": "pending",
+      "createdAt": "2023-07-26T19:39:32.355Z",
+      "updatedAt": "2023-07-26T19:39:32.355Z",
+      "__v": 0
+    },
+    {
+      "_id": "64c176988187289cbc28f263",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "villaBookingId": "64c176988187289cbc28f25f",
+      "type": "full",
+      "amount": 82600,
+      "orderId": "order_MIY4Lx3fM3s7FE",
+      "status": "pending",
+      "createdAt": "2023-07-26T19:40:08.660Z",
+      "updatedAt": "2023-07-26T19:40:08.660Z",
+      "__v": 0
+    },
+    {
+      "_id": "64c176b68187289cbc28f281",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "villaBookingId": "64c176b68187289cbc28f27d",
+      "type": "full",
+      "amount": 41300,
+      "orderId": "order_MIY4s0mYjTpkkG",
+      "status": "successful",
+      "createdAt": "2023-07-26T19:40:38.461Z",
+      "updatedAt": "2023-07-26T19:40:53.670Z",
+      "__v": 0,
+      "paymentDate": "2023-07-26T19:40:53.669Z",
+      "paymentId": "pay_MIY4xfxlaB8Gw8"
+    },
+    {
+      "_id": "64c178f48187289cbc28f419",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647ecf3250beae2c68d1a956",
+      "villaBookingId": "64c178f48187289cbc28f415",
+      "type": "full",
+      "amount": 35990,
+      "orderId": "order_MIYEysyYF75ynv",
+      "status": "successful",
+      "createdAt": "2023-07-26T19:50:12.473Z",
+      "updatedAt": "2023-07-26T19:50:31.736Z",
+      "__v": 0,
+      "paymentDate": "2023-07-26T19:50:31.736Z",
+      "paymentId": "pay_MIYF8z6T59p7Uc"
+    },
+    {
+      "_id": "64cce20f3418dcd5a815729f",
+      "payer": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "paidFor": "villa",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "villaBookingId": "64cce20f3418dcd5a815729b",
+      "type": "full",
+      "amount": 353,
+      "orderId": "order_MLyaU8U59bGAby",
+      "status": "pending",
+      "createdAt": "2023-08-04T11:33:35.704Z",
+      "updatedAt": "2023-08-04T11:33:35.704Z",
+      "__v": 0
+    },
+    {
+      "_id": "64d0d7b535c734473dcefd5c",
+      "payer": "user",
+      "userId": "6461d875e42f21499cf06a9a",
+      "paidFor": "villa",
+      "villaId": "647af75de17078536c83b1ec",
+      "villaBookingId": "64d0d7b535c734473dcefd58",
+      "type": "full",
+      "amount": 59000,
+      "orderId": "order_MNAH1nWSI9fyAV",
+      "status": "pending",
+      "createdAt": "2023-08-07T11:38:29.536Z",
+      "updatedAt": "2023-08-07T11:38:29.536Z",
+      "__v": 0
+    }
+  ],
+  "properties": [],
+  "rooms": [],
+  "seasonalpricings": [
+    {
+      "_id": "64738ac04700ea942917df78",
+      "name": "Weekend",
+      "basePrice": 1999,
+      "discountedPrice": 1499,
+      "rangeType": "day",
+      "day": "sunday",
+      "villaId": "645ca59496768bb42b4923a8",
+      "createdAt": "2023-05-28T17:09:20.879Z",
+      "updatedAt": "2023-05-28T21:47:25.636Z",
+      "__v": 0
+    },
+    {
+      "date": {
+        "startDate": "2023-05-01T00:00:00.000Z",
+        "endDate": "2023-05-04T00:00:00.000Z"
+      },
+      "_id": "647393014700ea942917dfa0",
+      "name": "Demo 3",
+      "basePrice": 1999,
+      "discountedPrice": 899,
+      "rangeType": "date",
+      "day": "sunday",
+      "villaId": "645ca59496768bb42b4923a8",
+      "createdAt": "2023-05-28T17:44:33.710Z",
+      "updatedAt": "2023-05-28T17:44:33.710Z",
+      "__v": 0
+    },
+    {
+      "date": {
+        "startDate": "2023-05-05T00:00:00.000Z",
+        "endDate": "2023-05-05T00:00:00.000Z"
+      },
+      "_id": "6473948b4700ea942917dfba",
+      "name": "Demo 4",
+      "basePrice": 2999,
+      "discountedPrice": 1999,
+      "rangeType": "date",
+      "day": "tuesday",
+      "villaId": "645ca59496768bb42b4923a8",
+      "createdAt": "2023-05-28T17:51:07.589Z",
+      "updatedAt": "2023-05-28T21:41:13.623Z",
+      "__v": 0
+    },
+    {
+      "_id": "6473b5754700ea942917e119",
+      "name": "Demo",
+      "basePrice": 199,
+      "discountedPrice": 53,
+      "rangeType": "day",
+      "day": "tuesday",
+      "villaId": "645ca4b596768bb42b492343",
+      "createdAt": "2023-05-28T20:11:33.781Z",
+      "updatedAt": "2023-05-28T20:11:33.781Z",
+      "__v": 0
+    },
+    {
+      "_id": "6473d5c64700ea942917e24d",
+      "name": "Demo 2",
+      "basePrice": 799,
+      "discountedPrice": 599,
+      "rangeType": "day",
+      "day": "tuesday",
+      "villaId": "645ca59496768bb42b4923a8",
+      "createdAt": "2023-05-28T22:29:26.180Z",
+      "updatedAt": "2023-05-28T22:29:26.180Z",
+      "__v": 0
+    },
+    {
+      "_id": "6476675ab5ace0046656fbe2",
+      "name": "Demo 5",
+      "basePrice": 799,
+      "discountedPrice": 599,
+      "rangeType": "day",
+      "day": "wednesday",
+      "villaId": "645ca59496768bb42b4923a8",
+      "createdAt": "2023-05-30T21:15:06.120Z",
+      "updatedAt": "2023-06-02T12:29:22.183Z",
+      "__v": 0
+    },
+    {
+      "_id": "647af7dfe17078536c83b21e",
+      "name": "Weekend",
+      "basePrice": 799,
+      "discountedPrice": 599,
+      "rangeType": "day",
+      "day": "saturday",
+      "villaId": "647af75de17078536c83b1ec",
+      "createdAt": "2023-06-03T08:20:47.034Z",
+      "updatedAt": "2023-06-03T08:20:47.034Z",
+      "__v": 0
+    },
+    {
+      "_id": "648b72dda837c7d4248a87a4",
+      "name": "Sunday",
+      "basePrice": 599,
+      "rangeType": "day",
+      "day": "friday",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "createdAt": "2023-06-15T20:21:49.638Z",
+      "updatedAt": "2023-06-15T21:15:43.097Z",
+      "__v": 0,
+      "discountedPrice": 299
+    },
+    {
+      "date": {
+        "startDate": "2023-06-24T00:00:00.000Z",
+        "endDate": "2023-06-28T00:00:00.000Z"
+      },
+      "_id": "648b7f9fa837c7d4248a8a0b",
+      "name": "Test",
+      "basePrice": 799,
+      "rangeType": "date",
+      "day": "sunday",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "createdAt": "2023-06-15T21:16:15.249Z",
+      "updatedAt": "2023-06-27T09:36:52.281Z",
+      "__v": 0
+    }
+  ],
+  "taxes": [
+    {
+      "_id": "646a30db5b82b2b8b1030e89",
+      "name": "SGST",
+      "taxAmount": "9",
+      "applyOnVillas": true,
+      "applyOnHotels": true,
+      "createdAt": "2023-05-21T14:55:23.430Z",
+      "updatedAt": "2023-05-22T14:03:14.232Z",
+      "__v": 0
+    },
+    {
+      "_id": "646a30ed5b82b2b8b1030e8d",
+      "name": "CGST",
+      "taxAmount": "9",
+      "applyOnVillas": true,
+      "applyOnHotels": false,
+      "createdAt": "2023-05-21T14:55:41.697Z",
+      "updatedAt": "2023-05-22T14:02:53.286Z",
+      "__v": 0
+    }
+  ],
+  "villabookings": [
+    {
+      "mainGuestInfo": {
+        "name": "Mohit Kumawat",
+        "email": "mohitkumawat310@gmail.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 1,
+        "childs": 0,
+        "pets": 1
+      },
+      "appliedPricing": {
+        "basePrice": 899,
+        "discountedPrice": 799,
+        "extraGuestPrice": 499,
+        "petPrice": 2,
+        "childPrice": 599
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "Jasmine",
+          "totalDiscount": "80"
+        },
+        "amountsToBePaid": {
+          "minimum": 679,
+          "full": 2741
+        },
+        "adultPrice": 799,
+        "childPrice": 0,
+        "petPrice": 2,
+        "perNightPrice": 801,
+        "totalNights": 3,
+        "totalPriceWithDiscount": 2323,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 209,
+            "_id": "64a3b75e81418ab933deac5d"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 209,
+            "_id": "64a3b75e81418ab933deac5e"
+          }
+        ],
+        "totalTaxAmount": 418
+      },
+      "_id": "64a3b2d581418ab933deaa56",
+      "src": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "checkIn": "2023-07-03T18:30:00.000Z",
+      "checkOut": "2023-07-06T18:30:00.000Z",
+      "status": "confirmed",
+      "createdAt": "2023-07-04T05:49:09.852Z",
+      "updatedAt": "2023-07-04T06:08:30.832Z",
+      "__v": 0,
+      "updateNote": ""
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Mohit Kumawat",
+        "email": "mohitkumawat310@gmail.com",
+        "phone": "09057965596"
+      },
+      "guests": {
+        "adults": 2,
+        "childs": 2,
+        "pets": 1
+      },
+      "appliedPricing": {
+        "basePrice": 899,
+        "discountedPrice": 799,
+        "extraGuestPrice": 499,
+        "petPrice": 2,
+        "childPrice": 599
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 7074,
+          "full": 8842
+        },
+        "adultPrice": 1298,
+        "childPrice": 1198,
+        "petPrice": 2,
+        "perNightPrice": 2498,
+        "totalNights": 3,
+        "totalPriceWithDiscount": 7494,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 674,
+            "_id": "64a450a681418ab933deaea9"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 674,
+            "_id": "64a450a681418ab933deaeaa"
+          }
+        ],
+        "totalTaxAmount": 1348
+      },
+      "_id": "64a4504681418ab933deae71",
+      "src": "user",
+      "userId": "6461d854e42f21499cf06a93",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "checkIn": "2023-07-03T18:30:00.000Z",
+      "checkOut": "2023-07-06T18:30:00.000Z",
+      "status": "cancelled",
+      "createdAt": "2023-07-04T17:00:54.485Z",
+      "updatedAt": "2023-07-04T17:02:30.489Z",
+      "__v": 0,
+      "updateNote": ""
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Mohit",
+        "email": "mohitkumawat310@gmil.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 1,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 40000,
+        "discountedPrice": 35000,
+        "extraGuestPrice": 496,
+        "petPrice": 2,
+        "childPrice": 599
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 82600,
+          "full": 82600
+        },
+        "adultPrice": 35000,
+        "childPrice": 0,
+        "petPrice": 0,
+        "perNightPrice": 35000,
+        "totalNights": 2,
+        "totalPriceWithDiscount": 70000,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 6300,
+            "_id": "64c0368f238f09d69051f7fd"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 6300,
+            "_id": "64c0368f238f09d69051f7fe"
+          }
+        ],
+        "totalTaxAmount": 12600
+      },
+      "_id": "64c0368f238f09d69051f7fc",
+      "src": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "checkIn": "2023-07-25T18:30:00.000Z",
+      "checkOut": "2023-07-27T18:30:00.000Z",
+      "status": "pending",
+      "createdAt": "2023-07-25T20:54:39.256Z",
+      "updatedAt": "2023-07-25T20:54:39.256Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Mohit Kumawat",
+        "email": "mohitkumawat310@gmail.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 3,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 40000,
+        "discountedPrice": 35000,
+        "extraGuestPrice": 496,
+        "petPrice": 2,
+        "childPrice": 599
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 84942,
+          "full": 84942
+        },
+        "adultPrice": 35992,
+        "childPrice": 0,
+        "petPrice": 0,
+        "perNightPrice": 35992,
+        "totalNights": 2,
+        "totalPriceWithDiscount": 71984,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 6479,
+            "_id": "64c176748187289cbc28f23c"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 6479,
+            "_id": "64c176748187289cbc28f23d"
+          }
+        ],
+        "totalTaxAmount": 12958
+      },
+      "_id": "64c176748187289cbc28f23b",
+      "src": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "checkIn": "2023-07-26T18:30:00.000Z",
+      "checkOut": "2023-07-28T18:30:00.000Z",
+      "status": "pending",
+      "createdAt": "2023-07-26T19:39:32.144Z",
+      "updatedAt": "2023-07-26T19:39:32.144Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Mohit Kumawat",
+        "email": "mohitkumawat310@gmail.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 1,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 40000,
+        "discountedPrice": 35000,
+        "extraGuestPrice": 496,
+        "petPrice": 2,
+        "childPrice": 599
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 82600,
+          "full": 82600
+        },
+        "adultPrice": 35000,
+        "childPrice": 0,
+        "petPrice": 0,
+        "perNightPrice": 35000,
+        "totalNights": 2,
+        "totalPriceWithDiscount": 70000,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 6300,
+            "_id": "64c176988187289cbc28f260"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 6300,
+            "_id": "64c176988187289cbc28f261"
+          }
+        ],
+        "totalTaxAmount": 12600
+      },
+      "_id": "64c176988187289cbc28f25f",
+      "src": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "checkIn": "2023-07-26T18:30:00.000Z",
+      "checkOut": "2023-07-28T18:30:00.000Z",
+      "status": "pending",
+      "createdAt": "2023-07-26T19:40:08.458Z",
+      "updatedAt": "2023-07-26T19:40:08.458Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Mohit Kumawat",
+        "email": "mohitkumawat310@gmail.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 1,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 40000,
+        "discountedPrice": 35000,
+        "extraGuestPrice": 496,
+        "petPrice": 2,
+        "childPrice": 599
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 41300,
+          "full": 41300
+        },
+        "adultPrice": 35000,
+        "childPrice": 0,
+        "petPrice": 0,
+        "perNightPrice": 35000,
+        "totalNights": 1,
+        "totalPriceWithDiscount": 35000,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 3150,
+            "_id": "64c176b68187289cbc28f27e"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 3150,
+            "_id": "64c176b68187289cbc28f27f"
+          }
+        ],
+        "totalTaxAmount": 6300
+      },
+      "_id": "64c176b68187289cbc28f27d",
+      "src": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "checkIn": "2023-07-26T18:30:00.000Z",
+      "checkOut": "2023-07-27T18:30:00.000Z",
+      "status": "confirmed",
+      "createdAt": "2023-07-26T19:40:38.187Z",
+      "updatedAt": "2023-07-26T19:40:53.450Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Royal",
+        "email": "dummymohitkumawat310@gmail.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 2,
+        "childs": 1,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 20000,
+        "discountedPrice": 15000,
+        "extraGuestPrice": 1000,
+        "petPrice": 0,
+        "childPrice": 500
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 35990,
+          "full": 35990
+        },
+        "adultPrice": 30000,
+        "childPrice": 500,
+        "petPrice": 0,
+        "perNightPrice": 30500,
+        "totalNights": 1,
+        "totalPriceWithDiscount": 30500,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 2745,
+            "_id": "64c178f48187289cbc28f416"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 2745,
+            "_id": "64c178f48187289cbc28f417"
+          }
+        ],
+        "totalTaxAmount": 5490
+      },
+      "_id": "64c178f48187289cbc28f415",
+      "src": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "villaId": "647ecf3250beae2c68d1a956",
+      "checkIn": "2023-07-26T18:30:00.000Z",
+      "checkOut": "2023-07-27T18:30:00.000Z",
+      "status": "confirmed",
+      "createdAt": "2023-07-26T19:50:12.204Z",
+      "updatedAt": "2023-07-26T19:50:31.515Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Mohit Kumawat",
+        "email": "mohitkumawat310@gmail.com",
+        "phone": "9876543210"
+      },
+      "guests": {
+        "adults": 1,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 599,
+        "discountedPrice": 299,
+        "extraGuestPrice": 496,
+        "petPrice": 2,
+        "childPrice": 599
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 353,
+          "full": 353
+        },
+        "adultPrice": 299,
+        "childPrice": 0,
+        "petPrice": 0,
+        "perNightPrice": 299,
+        "totalNights": 1,
+        "totalPriceWithDiscount": 299,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 27,
+            "_id": "64cce20f3418dcd5a815729c"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 27,
+            "_id": "64cce20f3418dcd5a815729d"
+          }
+        ],
+        "totalTaxAmount": 54
+      },
+      "_id": "64cce20f3418dcd5a815729b",
+      "src": "user",
+      "userId": "645c2de0ef0e825c9ce2092b",
+      "villaId": "647f2e5950beae2c68d1ac9c",
+      "checkIn": "2023-08-03T18:30:00.000Z",
+      "checkOut": "2023-08-04T18:30:00.000Z",
+      "status": "pending",
+      "createdAt": "2023-08-04T11:33:35.693Z",
+      "updatedAt": "2023-08-04T11:33:35.693Z",
+      "__v": 0
+    },
+    {
+      "mainGuestInfo": {
+        "name": "Royal",
+        "email": "dummymohitkumawat310@gmail.com",
+        "phone": "9057965596"
+      },
+      "guests": {
+        "adults": 1,
+        "childs": 0,
+        "pets": 0
+      },
+      "appliedPricing": {
+        "basePrice": 30000,
+        "discountedPrice": 25000,
+        "extraGuestPrice": 1999,
+        "petPrice": 0,
+        "childPrice": 999
+      },
+      "invoicePricing": {
+        "discount": {
+          "couponCode": "",
+          "totalDiscount": "0"
+        },
+        "amountsToBePaid": {
+          "minimum": 59000,
+          "full": 59000
+        },
+        "adultPrice": 25000,
+        "childPrice": 0,
+        "petPrice": 0,
+        "perNightPrice": 25000,
+        "totalNights": 2,
+        "totalPriceWithDiscount": 50000,
+        "appliedTaxes": [
+          {
+            "taxName": "SGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 4500,
+            "_id": "64d0d7b535c734473dcefd59"
+          },
+          {
+            "taxName": "CGST",
+            "taxAmount": 9,
+            "appliedTaxAmount": 4500,
+            "_id": "64d0d7b535c734473dcefd5a"
+          }
+        ],
+        "totalTaxAmount": 9000
+      },
+      "_id": "64d0d7b535c734473dcefd58",
+      "src": "user",
+      "userId": "6461d875e42f21499cf06a9a",
+      "villaId": "647af75de17078536c83b1ec",
+      "checkIn": "2023-08-07T18:30:00.000Z",
+      "checkOut": "2023-08-09T18:30:00.000Z",
+      "status": "pending",
+      "createdAt": "2023-08-07T11:38:29.420Z",
+      "updatedAt": "2023-08-07T11:38:29.420Z",
+      "__v": 0
+    }
+  ],
+  "villas": [
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "seoInfo": {
+        "title": "Royal hotels",
+        "metaDesc": "Place to love"
+      },
+      "cancellation": {
+        "allowCancellation": true,
+        "cancellationRules": [
+          {
+            "_id": "647af75de17078536c83b1ed",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": "",
+        "verificationDocument": ""
+      },
+      "_id": "647af75de17078536c83b1ec",
+      "name": "Green Villa 5BHK",
+      "images": [
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1686907926501-7141229b6e2de2eb4fa8dba410024569.jpg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1686907926502-338cbdfda03e55d9e9a7576085f49638.jpg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688970661744-11c49c399da01df8dfd4fea104794628.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688970661739-76c1571429d33b13fcd9f875d719f390.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688970661744-0f9e267c08e99cabd4bb38ac3db8913a.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688970661743-a4da9c39571dc77c03ba793da2eec366.jpeg"
+      ],
+      "address": "Alibag - Mandwa Road, Zirad, Maharashtra 402201",
+      "location": "6461d989e42f21499cf06ab7",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 30000,
+      "discountedPrice": 25000,
+      "minGuest": 2,
+      "maxGuest": 5,
+      "extraGuestPrice": 1999,
+      "childAllowed": true,
+      "maxChild": 3,
+      "childPrice": 999,
+      "petAllowed": false,
+      "petPrice": 0,
+      "villaDetails": [
+        "5 Bedroom",
+        "2 Kitchen",
+        "1 Private pool",
+        "Fruit garden"
+      ],
+      "amenities": [
+        "645c33bbef0e825c9ce20a7b",
+        "645c3476ef0e825c9ce20a89"
+      ],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-06-03T08:18:37.849Z",
+      "updatedAt": "2023-07-10T06:52:00.939Z",
+      "__v": 0,
+      "desc": "<p>Welcome to Green Villa 5BHK! This spacious villa is located in Alibaug, Maharashtra, offering a peaceful retreat in the picturesque town of Alibag. With its array of amenities and comfortable accommodations, Green Villa 5BHK is the perfect choice for a memorable vacation.</p>\r\n  <h2>Amenities:</h2>\r\n  <ul>\r\n    <li>All AC 5 rooms</li>\r\n    <li>Sound system</li>\r\n    <li>Family and children's tableware</li>\r\n    <li>Window guards</li>\r\n    <li>Board games</li>\r\n    <li>Air conditioning and ceiling fans</li>\r\n    <li>Home safety with security cameras, fire extinguisher, and first aid kit</li>\r\n    <li>Free Wi-Fi</li>\r\n    <li>Fully equipped kitchen with refrigerator, microwave, dishes, silverware, and more</li>\r\n    <li>Barbecue utensils for outdoor grilling</li>\r\n    <li>Waterfront location with beach access</li>\r\n    <li>Private entrance</li>\r\n    <li>Launderette nearby</li>\r\n    <li>Access to nearby resort facilities</li>\r\n    <li>Outdoor amenities including patio, garden, fire pit, outdoor furniture, dining area, BBQ grill, and sun loungers</li>\r\n    <li>Free parking on premises and on-street</li>\r\n    <li>Private outdoor pool available 24/7 with pool toys</li>\r\n    <li>Luggage drop-off allowed</li>\r\n    <li>Smoking allowed</li>\r\n    <li>Bathroom essentials provided</li>\r\n    <li>Entertainment options with SMART TV and standard cable/satellite</li>\r\n  </ul>\r\n  <h2>Location:</h2>\r\n  <p>Green Villa 5BHK is conveniently situated on Alibag-Mandwa Road, offering easy access to the surrounding natural beauty and nearby beach. The villa provides a private and peaceful atmosphere with its separate entrance, while still allowing guests to enjoy resort facilities and explore the attractions of the area.</p>",
+      "slug": "green-villa-5bhk"
+    },
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "647ecf3250beae2c68d1a957",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "647ecf3250beae2c68d1a956",
+      "name": "Gypsy Villa 3BHK",
+      "images": [
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972275997-98a8f68394e720bfb3e9bd61fe161d9c.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972276004-1d1f6e5308c9547ac8cbc167944f8ec2.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972276006-754ca680f2239b303bce570590930e5b.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972276004-3fa2f236fb6968ef25e150d63aaa2c4e.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972276003-7f324f62cf5d3c635b92433ccc2d641b.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972276004-2b95724a2b07f7f7bc44b197501deb93.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972276005-c1cf5ee708d94854f8a8e656c1b31a21.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688972276005-86048a6f269dd417bf387f47a62f3cbe.jpeg"
+      ],
+      "address": "Near Devi Mandir, Akshi, 402204 Alibaug, India",
+      "location": "6461d989e42f21499cf06ab7",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 20000,
+      "discountedPrice": 15000,
+      "minGuest": 5,
+      "maxGuest": 12,
+      "extraGuestPrice": 1000,
+      "childAllowed": true,
+      "maxChild": 2,
+      "childPrice": 500,
+      "petAllowed": true,
+      "petPrice": 0,
+      "villaDetails": [
+        "3 BHK",
+        "Pool",
+        "Nature Side"
+      ],
+      "amenities": [],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-06-06T06:16:18.807Z",
+      "updatedAt": "2023-07-10T07:01:12.994Z",
+      "__v": 0,
+      "desc": "<p>Welcome to Gypsy Villa 3BHK! This charming villa is located near Devi Mandir in the serene town of Akshi, Alibaug, India. Offering a delightful blend of comfort and natural beauty, Gypsy Villa is the perfect destination for a relaxing vacation.</p>\r\n  <h2>Amenities:</h2>\r\n  <ul>\r\n    <li>3 spacious bedrooms</li>\r\n    <li>4 bathrooms</li>\r\n    <li>Swimming pool</li>\r\n    <li>Surrounded by nature</li>\r\n    <li>Bird watching</li>\r\n    <li>Beach access</li>\r\n    <li>Indoor games</li>\r\n  </ul>\r\n  <h2>Location:</h2>\r\n  <p>Gypsy Villa 3BHK is situated near Devi Mandir, offering a tranquil and scenic environment in Akshi, Alibaug. Guests can immerse themselves in the beauty of nature while enjoying the convenience of beach access. Whether you're looking to relax by the pool, explore the surroundings, or indulge in indoor games, Gypsy Villa provides a delightful escape from the hustle and bustle of everyday life.</p>\r\n",
+      "slug": "gypsy-villa-3bhk"
+    },
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": true,
+        "cancellationRules": [
+          {
+            "_id": "647f2e5950beae2c68d1ac9d",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          },
+          {
+            "daysBeforeCheckIn": 15,
+            "refundableAmount": 100,
+            "_id": "648eb07ce17fe1e2ca485127"
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "promotion": {
+        "bestRated": true
+      },
+      "_id": "647f2e5950beae2c68d1ac9c",
+      "name": "O'NEST By The Beach 8BHK",
+      "images": [
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1686902204960-54c026b960cefedcb6f52628efbee579.jpg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1686902204959-f56ff47b2cf59705e95517cff8c3cb7f.jpg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1686902204959-6a4ccdabcbbbe55ceff30c3aea6e5e46.jpg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688969049839-db2fab86cbc50dd55a1f6b297da25dd5.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688969049840-51c6d6b9c4e33428c9ccfc2b57109620.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688969049838-62c27f10325c9adc0fccab104503b380.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688969161647-87467852530d56cfed4f42b2116b8bef.jpeg"
+      ],
+      "address": "S No 133, At & Post Barshiv, Kashid, Maharashtra 402202\r\n",
+      "location": "645c2f43ef0e825c9ce209de",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 40000,
+      "discountedPrice": 35000,
+      "minGuest": 1,
+      "maxGuest": 5,
+      "childAllowed": true,
+      "maxChild": 3,
+      "childPrice": 599,
+      "petAllowed": true,
+      "petPrice": 2,
+      "villaDetails": [
+        "8 BHK",
+        "1 Kitchen",
+        "1 Private pool"
+      ],
+      "amenities": [
+        "645c33bbef0e825c9ce20a7b",
+        "645c3476ef0e825c9ce20a89",
+        "645c34ceef0e825c9ce20a8f",
+        "645c33dcef0e825c9ce20a80"
+      ],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-06-06T13:02:17.058Z",
+      "updatedAt": "2023-08-04T09:44:31.534Z",
+      "__v": 0,
+      "desc": "<p>Welcome to O'NEST By The Beach 8bhk! This luxurious property is nestled in the beautiful coastal town of Kashid, Maharashtra. Offering a serene getaway, this 8-bedroom villa is perfect for those seeking a beachside retreat.</p><p>&nbsp;</p><h2>Amenities:</h2><p>&nbsp;</p><ul><li>Pool</li><li>Free parking</li><li>Free Wi-Fi</li><li>Beach access</li><li>Internet</li><li>Child-friendly</li><li>24-hour front desk</li><li>Full-service laundry</li><li>Outdoor pool</li><li>Pet-friendly</li><li>Room service</li><li>Kitchen</li><li>&nbsp;</li></ul><h2>Location:</h2><p>&nbsp;</p><p>O'NEST By The Beach 8bhk is situated in Barshiv, Kashid, offering easy access to the pristine beaches of Maharashtra. Surrounded by natural beauty, this property provides a tranquil atmosphere while being conveniently located near local attractions, dining options, and shopping venues.</p>",
+      "slug": "o-nest-by-the-beach-8bhk",
+      "extraGuestPrice": 496
+    },
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64abaf1f37fd736897d498ad",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64abaf1f37fd736897d498ac",
+      "name": "Umbrella 6bhk",
+      "slug": "umbrella-6bhk",
+      "images": [
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154882-2d44cb4f341c7c1a4b88199789cc8c2d.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154883-ace8fc4ae67192c7e299a8a2662b5bfa.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154882-1b31b3e220eb9dff7a8d664382d24ff7.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154883-d0272c7d54e8d6066b2b8e4a6544757b.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154883-32627bba7a873eee101e905b94435340.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154881-b2d79eb6faf159ae5c4c57983880e1c6.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154884-1a4879bac3d8d76a17174544f3ac35e0.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154883-859f9d156469397168ec529314941c85.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973154875-7d67ef6efa8d0a1cc835a562190d330e.jpeg"
+      ],
+      "address": "Alibag - Revas Rd, Chondhi, Aibaug, Maharashtra 402201",
+      "location": "6461d989e42f21499cf06ab7",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 20000,
+      "discountedPrice": 15000,
+      "minGuest": 2,
+      "maxGuest": 15,
+      "extraGuestPrice": 1000,
+      "childAllowed": true,
+      "maxChild": 5,
+      "childPrice": 500,
+      "petAllowed": false,
+      "petPrice": 0,
+      "villaDetails": [
+        "6 BHK",
+        "Garden view",
+        "Pool view"
+      ],
+      "amenities": [
+        "645c33bbef0e825c9ce20a7b",
+        "645c33dcef0e825c9ce20a80",
+        "645c3476ef0e825c9ce20a89",
+        "645c34ceef0e825c9ce20a8f"
+      ],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-07-10T07:11:27.369Z",
+      "updatedAt": "2023-08-03T22:08:49.146Z",
+      "__v": 0,
+      "desc": ""
+    },
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64abb05437fd736897d49931",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64abb05437fd736897d49930",
+      "name": "Celebrity Villa 5BHK",
+      "slug": "celebrity-villa-5bhk",
+      "images": [
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518580-85554730a63c8cc9807eb5c5178f8fe9.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518579-b45620d2c7729ebca4aaa2e26689ae89.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518582-5443504adbe964bd1132f02e917d554c.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518582-557c0b4860127005e3e8136caf0dcbb6.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518581-231503c3128800d8db71fa2e93603400.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518580-e7b955995be90fce52b53213fe2e26eb.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518580-336a30af96b303b424e6bb31130d7616.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518577-b2b1212e5d12b2f27775c1888a40d655.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518581-5c068b1b498b26932ebc7d099b36d0b8.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518579-001bc513c2c8e20002932e1d3d172156.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688973518580-db0300798510912848407373cf022529.jpeg"
+      ],
+      "address": "Sneha Bunglows Road, Kune Village, Lonavala, Maharashtra 410405",
+      "location": "645c2f75ef0e825c9ce209f6",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 15000,
+      "discountedPrice": 10000,
+      "minGuest": 2,
+      "maxGuest": 20,
+      "extraGuestPrice": 1000,
+      "childAllowed": true,
+      "maxChild": 2,
+      "childPrice": 500,
+      "petAllowed": false,
+      "petPrice": 0,
+      "villaDetails": [
+        "5 BHK",
+        "Pool",
+        "Garden"
+      ],
+      "amenities": [
+        "645c33bbef0e825c9ce20a7b",
+        "645c33dcef0e825c9ce20a80",
+        "645c3476ef0e825c9ce20a89",
+        "645c34ceef0e825c9ce20a8f"
+      ],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-07-10T07:16:36.763Z",
+      "updatedAt": "2023-08-03T22:08:49.146Z",
+      "__v": 0,
+      "desc": "<p>Welcome to Celebrity Villa 5BHK! Located in the scenic village of Kune, Lonavala, Maharashtra, this stunning villa offers a luxurious and memorable retreat.</p>\r\n  <h2>Amenities:</h2>\r\n  <ul>\r\n    <li>Pool</li>\r\n    <li>Free parking</li>\r\n    <li>Free Wi-Fi</li>\r\n    <li>No spa</li>\r\n    <li>Rooms with kitchen</li>\r\n    <li>Pet-friendly</li>\r\n    <li>Room service</li>\r\n    <li>24-hour front desk</li>\r\n    <li>Full-service laundry</li>\r\n  </ul>\r\n  <h2>Location:</h2>\r\n  <p>Celebrity Villa 5BHK is conveniently situated in Kune Village, Lonavala, providing a serene and picturesque environment. Guests can relax by the pool, enjoy the spacious rooms with kitchen facilities, and take advantage of the various services available. With its pet-friendly policy and excellent amenities, Celebrity Villa ensures a comfortable and enjoyable stay for guests.</p>"
+    },
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64abb26437fd736897d499a0",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64abb26437fd736897d4999f",
+      "name": "Assanjoo Villa 5BHK",
+      "slug": "assanjoo-villa-5bhk",
+      "images": [
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688974181922-f04c27a4cec2e0f8fcddc4a7129d009c.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688974181924-ce03a61f1ab715fbaf1596e44c81135b.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688974181925-a574970bd7aea388acc0ae5d867f3d48.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688974181927-f34dc764f951cd7d81e7c37762acdbde.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688974181926-0227509d8d7f0b8ef99da7d8caeb049e.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688974181926-86ee08078fca1493fce9c0683dedd229.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688974181925-9f5cb2bec87b869ea3aca99054c1587f.jpeg"
+      ],
+      "address": "Bhairoli Village, Mapgao Chondi, Alibag, Maharashtra 402201",
+      "location": "6461d989e42f21499cf06ab7",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 20000,
+      "discountedPrice": 15000,
+      "minGuest": 2,
+      "maxGuest": 20,
+      "extraGuestPrice": 1000,
+      "childAllowed": true,
+      "maxChild": 2,
+      "childPrice": 500,
+      "petAllowed": false,
+      "petPrice": 0,
+      "villaDetails": [
+        "5BHK",
+        "Garden",
+        "Pool"
+      ],
+      "amenities": [
+        "645c33bbef0e825c9ce20a7b",
+        "645c33dcef0e825c9ce20a80",
+        "645c3476ef0e825c9ce20a89",
+        "645c34ceef0e825c9ce20a8f"
+      ],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-07-10T07:25:24.113Z",
+      "updatedAt": "2023-08-03T22:08:49.146Z",
+      "__v": 0,
+      "desc": "<p>Welcome to Assanjoo Villa 5BHK! Located in Bhairoli Village, Mapgao Chondi, Alibag, Maharashtra, this exquisite villa offers a luxurious and comfortable retreat.</p>\r\n  <h2>What this place offers:</h2>\r\n  <ul>\r\n    <li>Bathroom amenities including a hairdryer, cleaning products, hot water, and shower gel</li>\r\n    <li>Bedroom and laundry facilities with a washing machine, essentials like towels, bed sheets, soap, and toilet paper, hangers, bed linen, extra pillows, blankets, iron, clothes drying rack, and clothes storage</li>\r\n    <li>Entertainment options with a TV featuring standard cable/satellite channels</li>\r\n    <li>Heating and cooling with air conditioning</li>\r\n    <li>Home safety with a first aid kit</li>\r\n    <li>Kitchen and dining amenities including a refrigerator and microwave</li>\r\n    <li>Location features with a private entrance and separate street or building entrance</li>\r\n    <li>Outdoor amenities including a patio or balcony, garden, and BBQ grill</li>\r\n    <li>Parking facilities with free parking on premises</li>\r\n    <li>Pool for relaxation and enjoyment</li>\r\n    <li>Services including pets allowed, assistance animals allowed, luggage drop-off allowed, smoking allowed, long-term stays allowed (28 days or more), self-check-in, and 24-hour building staff available for assistance</li>\r\n  </ul>\r\n  <h2>Location:</h2>\r\n  <p>Assanjoo Villa 5BHK is situated in Bhairoli Village, Mapgao Chondi, Alibag, providing a peaceful and scenic environment. Guests can unwind in the spacious villa, enjoy the outdoor spaces, and take advantage of the various amenities provided. With its pet-friendly policy and excellent services, Assanjoo Villa ensures a memorable and comfortable stay for guests.</p>"
+    },
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64abb8ab37fd736897d49a31",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "submitForVerification": false,
+        "verificationFailReason": ""
+      },
+      "_id": "64abb8ab37fd736897d49a30",
+      "name": "Legacy Villa - 7 BHK",
+      "slug": "legacy-villa-7-bhk",
+      "images": [
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449218-89eb5158a8787ae4e6012b0da1e97fea.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449219-98d3957ba93ea56fb41c0c634b15c75f.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449219-bc8e1d195db10bf516cdef972b63537d.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449220-5036986094a2b4cd9fc6cd2d91592cdc.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449217-85bc9ca15d98187e4d089908f74e92a1.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449220-d382e245c3ce302b709b2adde2b1b3a0.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449219-4728f6255d019f6b958bd600d4d3e4f4.jpeg",
+        "https://ths-website.s3.ap-south-1.amazonaws.com/public/villas/1688976449219-48477cb6752746e494c5fec71403fc90.jpeg"
+      ],
+      "address": "Legacy villa , INS shivaji road Bushigoan, Lonavala, Maharashtra 410401",
+      "location": "645c2f75ef0e825c9ce209f6",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 20000,
+      "discountedPrice": 15000,
+      "minGuest": 2,
+      "maxGuest": 12,
+      "extraGuestPrice": 1500,
+      "childAllowed": true,
+      "maxChild": 2,
+      "childPrice": 750,
+      "petAllowed": false,
+      "petPrice": 0,
+      "villaDetails": [
+        "7BHK",
+        "AC",
+        "Spacious"
+      ],
+      "amenities": [
+        "645c33bbef0e825c9ce20a7b",
+        "645c33dcef0e825c9ce20a80",
+        "645c3476ef0e825c9ce20a89",
+        "645c34ceef0e825c9ce20a8f"
+      ],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-07-10T07:52:11.294Z",
+      "updatedAt": "2023-08-03T22:08:49.146Z",
+      "__v": 0,
+      "desc": "<p>Welcome to Legacy Villa Bunglow Lonavala 7BHK! This grand villa is situated in Bushigoan, Lonavala, Maharashtra, offering a luxurious and memorable stay for guests.</p>\r\n  <h2>Amenities:</h2>\r\n  <ul>\r\n    <li>All AC 7 rooms</li>\r\n    <li>Sound system</li>\r\n    <li>Family-friendly amenities including children's tableware and window guards</li>\r\n    <li>Board games</li>\r\n    <li>Heating and cooling with air conditioning, ceiling fans, and portable fans</li>\r\n    <li>Home safety features with security cameras, fire extinguisher, and first aid kit</li>\r\n    <li>Internet access with Wi-Fi</li>\r\n    <li>Fully equipped kitchen with refrigerator, microwave, dishes, silverware, bowls, chopsticks, plates, cups, freezer, kettle, barbecue utensils, grill, and dining table</li>\r\n    <li>Location features such as waterfront proximity, beach access, private entrance, launderette nearby, and resort access</li>\r\n    <li>Outdoor amenities including a patio or balcony, garden, fire pit, outdoor furniture, outdoor dining area, BBQ grill, and sun loungers</li>\r\n    <li>Parking facilities including free parking on premises and on-street</li>\r\n    <li>Private outdoor pool available 24/7 with pool toys</li>\r\n    <li>Single-level home with no stairs</li>\r\n    <li>Services including luggage drop-off allowed and smoking allowed</li>\r\n  </ul>\r\n  <h2>Location:</h2>\r\n  <p>Legacy Villa Bunglow Lonavala 7BHK is located on INS Shivaji Road in Bushigoan, Lonavala. Guests can enjoy the waterfront location, nearby beach access, and the serene atmosphere of the villa. With its spacious rooms, well-equipped kitchen, and entertainment options, Legacy Villa Bunglow promises a delightful stay for guests seeking relaxation and comfort.</p>"
+    },
+    {
+      "coordinates": {
+        "coordinates": []
+      },
+      "hostInfo": {
+        "name": "Being Stay",
+        "phoneNumber": "+918602818849",
+        "email": "support@beingstay.com"
+      },
+      "cancellation": {
+        "allowCancellation": false,
+        "cancellationRules": [
+          {
+            "_id": "64abbb5d37fd736897d49a45",
+            "daysBeforeCheckIn": 3,
+            "refundableAmount": 12
+          }
+        ]
+      },
+      "verification": {
+        "verified": false,
+        "submitForVerification": false
+      },
+      "_id": "64abbb5d37fd736897d49a44",
+      "name": "Legacy Villa 7BHK",
+      "slug": "legacy-villa-7bhk",
+      "images": [
+        "/panel/images/newProperty.webp"
+      ],
+      "address": "Legacy villa , INS shivaji road Bushigoan, Lonavala, Maharashtra 410401",
+      "location": "645c2f75ef0e825c9ce209f6",
+      "userId": "6461d854e42f21499cf06a93",
+      "basePrice": 20000,
+      "discountedPrice": 15000,
+      "minGuest": 2,
+      "maxGuest": 10,
+      "extraGuestPrice": 1500,
+      "childAllowed": true,
+      "maxChild": 2,
+      "childPrice": 750,
+      "petAllowed": false,
+      "petPrice": 0,
+      "villaDetails": [],
+      "amenities": [],
+      "icalLinks": [],
+      "bookingAllowed": true,
+      "block": false,
+      "reviewsAllowed": true,
+      "minimumPaymentToBook": 100,
+      "createdAt": "2023-07-10T08:03:41.667Z",
+      "updatedAt": "2023-07-10T08:03:41.667Z",
+      "__v": 0
+    }
+  ]
+}
