@@ -14,6 +14,7 @@ import paymentModel from"@/models/payments.model"
 import userModel from "@/models/users.model"
 import icsModel from "@/models/ics.model"
 import icsParser from "@/util/icsParser"
+import createICSLink from "@/util/icsLinkGenerator"
 
 import mongoose from 'mongoose';
 
@@ -41,12 +42,16 @@ export default async function handler(req, res) {
         try {
             if (req.method == "GET") {
                 const {villaId} = req.query;
-                // console.log(villaId)
+                console.log(villaId)
+                const villa = await villasModel.findById( villaId);
+                const icsContents = villa.icsContents;
+                console.log(icsContents)
+                const icslink = await createICSLink(icsContents);
 
-                const ics = await icsModel.findOne({villaId});
-                const icsContent = await icsParser(ics.icsContent);
-                console.log(icsContent)
-                res.send(icsContent)
+                // const ics = await icsModel.findOne({villaId});
+                // const icsContent = await icsParser(ics.icsContent);
+                console.log(icslink)
+                res.send(icslink)
             }
         } catch (error) {
             console.log(error)

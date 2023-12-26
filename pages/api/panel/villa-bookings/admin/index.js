@@ -12,6 +12,7 @@ import icsGen from "@/util/icsGen"
 import villasModel from "@/models/villas.model";
 import paymentModel from"@/models/payments.model"
 import userModel from "@/models/users.model"
+import { ICalendar } from 'datebook'
 
 import mongoose from 'mongoose';
 
@@ -447,7 +448,7 @@ export default async function handler(req, res) {
                     // console.log(_id)
                     const date = new Date();
                     // console.log(date)
-                    console.log(advancePayed)
+                    // console.log(advancePayed)
                     try {
                         const newPayment = new paymentModel({
                             type:"normal",
@@ -463,7 +464,7 @@ export default async function handler(req, res) {
                             price: advancePayed
                         })
                         await newPayment.save()
-                        console.log(newPayment)
+                        // console.log(newPayment)
                         // console.log("hi")
                         return res.status(200).json({ success: 'Booking has been added successfully' })
                     } catch (error) {
