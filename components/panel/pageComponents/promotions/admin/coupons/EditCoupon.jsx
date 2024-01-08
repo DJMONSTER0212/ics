@@ -39,7 +39,7 @@ const EditCoupon = ({ editCouponDrawer, setEditCouponDrawer, editMessage, setEdi
         { value: 'percentage', label: 'Percentage' },
         { value: 'price', label: 'Price' },
     ]
-    // Values for user 
+    // Values for user
     const loadUsers = async (inputValue) => {
         const response = await fetch(`/api/panel/users/admin/search?users=true&search=${inputValue}&activeAccounts=true`);
         const responseData = await response.json();
@@ -51,7 +51,7 @@ const EditCoupon = ({ editCouponDrawer, setEditCouponDrawer, editMessage, setEdi
         }));
         return options;
     };
-    // Values for villas 
+    // Values for villas
     const loadVillas = async (inputValue) => {
         const response = await fetch(`/api/panel/villas/admin/search?search=${inputValue}&searchOption=name&villaType=verified`);
         const responseData = await response.json();
@@ -61,10 +61,10 @@ const EditCoupon = ({ editCouponDrawer, setEditCouponDrawer, editMessage, setEdi
             email: villa.user.email,
             image: villa.images[0]
         }));
-        console.log(responseData)
+        // console.log(responseData)
         return options;
     };
-    // Values for hotels 
+    // Values for hotels
     const loadHotels = async (inputValue) => {
         const response = await fetch(`/api/panel/users/admin/search?users=true&search=${inputValue}&activeAccounts=true`);
         const responseData = await response.json();
@@ -146,7 +146,7 @@ const EditCoupon = ({ editCouponDrawer, setEditCouponDrawer, editMessage, setEdi
         clearErrors() // Clear all previous form errors
         setDrawerLoading(false)
     }, [clearErrors, reset, setEditCouponDrawer, setEditMessage, setValue, setGlobalMessage])
-    
+
     // To fetch coupon
     useEffect(() => {
         if (editCouponId) {

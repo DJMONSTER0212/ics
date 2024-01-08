@@ -78,8 +78,8 @@ export default async function register(req, res) {
                             }
                             )
                             await newUser.save();
-                            console.log("Done")
-                            console.log("hello")
+                            // console.log("Done")
+                            // console.log("hello")
                     } else {
                         res.status(400).json({ error: "Account not verified and sending email failed. Please try again." });
                     }

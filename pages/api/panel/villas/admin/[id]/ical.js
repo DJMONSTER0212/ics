@@ -5,8 +5,12 @@ import { authOptions } from '../../../../auth/[...nextauth]';
 import connectDB from "@/conf/database/dbConfig";
 import villasModel from "@/models/villas.model";
 import mongoose from 'mongoose';
+import icalendar from 'ical-generator';
+import ical from 'node-ical';
+import axios from 'axios';
 
-// Database 
+
+// Database
 connectDB()
 
 // Disable next js body parser
@@ -39,6 +43,61 @@ export default async function handler(req, res) {
                     'icalLinks': fields.icalLinks
                 }
                 // Updating villa ical links >>>>>>>>>>>>>>
+                let events = []
+
+                const villa = await villasModel.findById({ _id: req.query.id });
+                // console.log(villa)
+                events = villa.events;
+                // console.log(events);
+                const links = fields.icalLinks
+                // console.log(links)
+                try {
+                    for (let linkNo in links) {
+                        // console.log(links[linkNo])
+                        try {
+                            const response = await axios.get(links[linkNo]);
+                            const data = response.data;
+                            const parsedData = ical.parseICS(data);
+                            for (const key in parsedData) {
+                                if (parsedData.hasOwnProperty(key) && parsedData[key].type === 'VEVENT') {
+                                    const event = parsedData[key];
+                                    events.push({
+                                        summary: event.summary,
+                                        description: event.description || "Booked",
+                                        start: new Date(event.start),
+                                        end: new Date(event.end),
+                                        url: "www.testurl.com"
+                                    });
+                                }
+                            }
+                            // console.log(parsedData)
+                        } catch (error) {
+                            console.log(error)
+                            // break;
+                        }
+                    }
+
+                    // console.log(events)
+
+                    let newIcsContent = "";
+                    try {
+                        const calendar = await icalendar({
+                            prodId: '//superman-industries.com//ical-generator//EN',
+                            events: events,
+                        })
+                        newIcsContent = calendar.toString();
+                        const data = await villasModel.findByIdAndUpdate({ _id: req.query.id }, {
+                            $push: { events: events },
+                            $set: { icsContent: newIcsContent }
+                        })
+
+
+                    } catch (error) {
+                        console.log(error)
+                    }
+                } catch (error) {
+                    console.log(error)
+                }
                 try {
                     await villasModel.updateOne({ _id: req.query.id }, { $set: updateFields });
                     return res.status(200).json({ success: 'iCal links has been updated successfully' })

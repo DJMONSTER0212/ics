@@ -8,7 +8,7 @@ const paymentsSchema = new Schema({
     },
     src: {
         type: String,
-        enum: ['razorpay', 'offline', 'upi', 'other'],
+        enum: ['razorpay', 'offline', 'upi', 'other','panel'],
     },
     srcDesc: {
         type: String,
@@ -43,6 +43,10 @@ const paymentsSchema = new Schema({
     },
     price: {
         type: Number
+    },
+    advancePaid :{
+        type : Number,
+        default : 0
     },
     upi: {
         refNo: {

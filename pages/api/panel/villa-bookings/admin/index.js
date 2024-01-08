@@ -10,12 +10,12 @@ import taxesModel from "@/models/taxes.model";
 import settingsModel from "@/models/settings.model";
 import icsGen from "@/util/icsGen"
 import villasModel from "@/models/villas.model";
-import paymentModel from"@/models/payments.model"
+import paymentModel from "@/models/payments.model"
 import userModel from "@/models/users.model"
-import { ICalendar } from 'datebook'
-
+import icalendar from 'ical-generator';
+import eventCheck from '@/util/EventChecker';
 import mongoose from 'mongoose';
-
+// dsad/
 // Database
 connectDB()
 
@@ -45,7 +45,7 @@ export default async function handler(req, res) {
             }
             // Logics >>>>>>>>>>>>>>>
             if (req.method == 'POST') {
-                let { range,advancePayed,villaId, src, srcDesc, userId, status, checkIn, checkOut, adults, childs, pets, name, email, phone, coupon, priceMode, basePrice, discountedPrice, childPrice, extraGuestPrice } = fields;
+                let { range, advancePayed, villaId, src, srcDesc, userId, status, checkIn, checkOut, adults, childs, pets, name, email, phone, coupon, priceMode, basePrice, discountedPrice, childPrice, extraGuestPrice } = fields;
                 let directDiscount = fields.directDiscount;
                 let addons = await JSON.parse(fields.addons);
                 // Fetch settings >>>>>>>>>>>>>>
@@ -360,10 +360,12 @@ export default async function handler(req, res) {
                 }
                 const minimumPrice = await getMinimumPrice(totalPriceWithAddons, villa);
                 // Set price to be paid
+                // console.log(minimumPrice);
                 let priceToBePaid = {
                     minimum: Math.round(minimumPrice.minimumPriceToBook),
                     full: totalPriceWithAddons
                 }
+                // console.log(priceToBePaid);
                 // Update coupon usage if status is confirmed >>>>>>>>>>>>>>>>
                 if (status == 'confirmed' && coupon && coupon != '') {
                     try {
@@ -373,106 +375,158 @@ export default async function handler(req, res) {
                     }
                 }
                 // Adding villa booking >>>>>>>>>>>>>>>>>
-                var newBooking;
-                try {
-                    // Set applied pricing
-                    let appliedPricing;
-                    if (priceMode == 'automatic') {
-                        appliedPricing = {
-                            basePrice: villa[0].basePrice,
-                            discountedPrice: villa[0].discountedPrice || null,
-                            extraGuestPrice: villa[0].extraGuestPrice,
-                            childPrice: villa[0].childPrice,
-                        }
-                    } else {
-                        appliedPricing = {
-                            basePrice,
-                            discountedPrice,
-                            extraGuestPrice,
-                            childPrice,
-                        }
-                    }
-                    // Create booking
 
-                    const icsContent = await icsGen(villaId,checkIn,checkOut);
-                    // console.log(icsContent)
-                    newBooking = new villaBookingsModel({
-                        src,
-                        srcDesc,
-                        userId,
-                        villaId,
-                        checkIn,
-                        checkOut,
-                        mainGuestInfo: {
-                            name,
-                            email,
-                            phone
-                        },
-                        guests: {
-                            adults,
-                            childs,
-                            pets
-                        },
-                        appliedPricing: appliedPricing,
-                        invoicePricing: {
-                            totalNights,
-                            perNightPrice,
-                            discount: {
-                                totalPriceDiscount,
-                                couponDiscount: {
-                                    couponCode: couponDiscount.couponMessage.type == 'success' ? coupon : '',
-                                    price: couponDiscount.couponDiscount
-                                },
-                            },
-                            taxes: {
-                                appliedTaxes: taxes.appliedTaxes,
-                                totalTaxPrice: taxes.totalTaxPrice
-                            },
-                            addons: {
-                                appliedAddons: addonsPricing.appliedAddons,
-                                totalAddonPrice: addonsPricing.totalAddonPrice
-                            },
-                            directDiscount: directDiscount,
-                            appliedMinimumPrice: minimumPrice.appliedMinimumPrice,
-                            priceToBePaid
-                        },
-                        status: status,
-                        cancellation: villa[0].cancellation,
+                const currVilla = villa[0];
+                // console.log(currVilla)
+                let events = currVilla.events || []
+                // console.log(await eventCheck(events, checkIn, checkOut).then(function (result) { return result }));
+                if (await eventCheck(events, checkIn, checkOut).then(function (result) { return result })) {
+                    // adding the new events
+
+                    let event = {
+                        start: checkIn,
+                        end: checkOut,
+                        summary: "booked",
+                        description: `Reserved `,
+                        url: "https://testUrl.com"
+                    }
+                    // console.log(event)
+                    events.push(event);
+
+                    // console.log(events)
+                    const final = await events.filter((event) => {
+                        return (new Date(event.end) > new Date())
                     })
-                    // console.log(priceToBePaid)
-                    // console.log(newBooking)
-                    // console.log("==============================================================================================")
-                    const result = await newBooking.save();
-                    // console.log(result._id)
-                    const {_id} = result._id;
-                    // console.log(_id)
-                    const date = new Date();
-                    // console.log(date)
-                    // console.log(advancePayed)
+                    // console.log(final);
                     try {
-                        const newPayment = new paymentModel({
-                            type:"normal",
+                        let newIcsContent = "";
+                        try {
+                            const calendar = await icalendar({
+                                prodId: '//superman-industries.com//ical-generator//EN',
+                                events: final,
+                            })
+                            newIcsContent = calendar.toString();
+                        } catch (error) {
+                            console.log(error)
+                        }
+                        // const newIcsContent = await icsGen(events);
+                        // console.log(newIcsContent);
+                        const data = await villasModel.findByIdAndUpdate({ _id: villaId }, {
+                            events: final,
+                            icsContent: newIcsContent
+                        })
+
+
+                    } catch (error) {
+                        console.log(error);
+                    }
+
+                    var newBooking;
+                    try {
+                        // Set applied pricing
+                        let appliedPricing;
+                        if (priceMode == 'automatic') {
+                            appliedPricing = {
+                                basePrice: villa[0].basePrice,
+                                discountedPrice: villa[0].discountedPrice || null,
+                                extraGuestPrice: villa[0].extraGuestPrice,
+                                childPrice: villa[0].childPrice,
+                            }
+                        } else {
+                            appliedPricing = {
+                                basePrice,
+                                discountedPrice,
+                                extraGuestPrice,
+                                childPrice,
+                            }
+                        }
+                        // Create booking
+                        newBooking = new villaBookingsModel({
                             src,
                             srcDesc,
                             userId,
-                            paidFor: "villa",
                             villaId,
-                            villaBookingId:_id,
-                            range,
-                            paymentDate : date.getDate(),
-                            status: range === "full" ? "successful" : "pending",
-                            price: advancePayed
+                            checkIn,
+                            checkOut,
+                            mainGuestInfo: {
+                                name,
+                                email,
+                                phone
+                            },
+                            guests: {
+                                adults,
+                                childs,
+                                pets
+                            },
+                            appliedPricing: appliedPricing,
+                            invoicePricing: {
+                                totalNights,
+                                perNightPrice,
+                                discount: {
+                                    totalPriceDiscount,
+                                    couponDiscount: {
+                                        couponCode: couponDiscount.couponMessage.type == 'success' ? coupon : '',
+                                        price: couponDiscount.couponDiscount
+                                    },
+                                },
+                                taxes: {
+                                    appliedTaxes: taxes.appliedTaxes,
+                                    totalTaxPrice: taxes.totalTaxPrice
+                                },
+                                addons: {
+                                    appliedAddons: addonsPricing.appliedAddons,
+                                    totalAddonPrice: addonsPricing.totalAddonPrice
+                                },
+                                directDiscount: directDiscount,
+                                appliedMinimumPrice: minimumPrice.appliedMinimumPrice,
+                                priceToBePaid
+                            },
+                            status: status,
+                            cancellation: villa[0].cancellation,
                         })
-                        await newPayment.save()
-                        // console.log(newPayment)
-                        // console.log("hi")
-                        return res.status(200).json({ success: 'Booking has been added successfully' })
-                    } catch (error) {
-                        console.log(error)
-                    }
+                        // console.log(priceToBePaid)
+                        // console.log(newBooking)
+                        // console.log("==============================================================================================")
+                        const result = await newBooking.save();
+                        // console.log(result._id)
+                        const { _id } = result._id;
+                        // console.log(_id)
+                        const date = new Date();
+                        // console.log(date)
+                        console.log(advancePayed)
+                        if(range=="full"){
+                            advancePayed = priceToBePaid.minimum
+                        }
+                        try {
+                            const newPayment = new paymentModel({
+                                type: "normal",
+                                src,
+                                srcDesc,
+                                userId,
+                                paidFor: "villa",
+                                villaId,
+                                villaBookingId: _id,
+                                range,
+                                paymentDate: date.getDate(),
+                                status: range === "full" ? "successful" : "pending",
+                                price: priceToBePaid.minimum,
+                                advancePaid : advancePayed
+                            })
+                            await newPayment.save()
+                            console.log(newPayment)
+                            // console.log("hi")
+                            return res.status(200).json({ success: 'Booking has been added successfully' })
+                        } catch (error) {
+                            console.log(error)
+                        }
 
-                } catch (error) {
-                    return res.status(500).json({ error: `Adding booking failed. ${process.env.NODE_ENV == 'development' && `Error : ${error}`}` });
+                    } catch (error) {
+                        return res.status(500).json({ error: `Adding booking failed. ${process.env.NODE_ENV == 'development' && `Error : ${error}`}` });
+                    }
+                }
+                else {
+                    // console.log("It's working");
+                    return res.status(500).send({ error: `Villa is Already Booked for these dates` });
                 }
             } else if (req.method == 'GET') {
                 try {

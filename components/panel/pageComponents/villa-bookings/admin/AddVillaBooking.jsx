@@ -16,7 +16,7 @@ import Toggle from '@/components/panel/design/Toggle'
 
 const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addMessage, setAddMessage, settings, reFetch }) => {
     // For submit button loading >>>>>>>>>>>>>>>>>
-    const [priceToBePaid,setPriceToBePaid] = useState(0)
+    const [priceToBePaid, setPriceToBePaid] = useState(0)
     const [submitLoading, setSubmitLoading] = useState(false)
     // For select inputs >>>>>>>>>>>>>>>>>
     // Values for price modes
@@ -74,7 +74,7 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
     const [selectedVilla, setSelectedVilla] = useState();
     const { register, handleSubmit, control, reset, formState: { errors } } = useForm();
     const priceMode = useWatch({ control, name: 'priceMode' });
-    const range = useWatch({control ,name:'range'})
+    const range = useWatch({ control, name: 'range' })
     const basePrice = useWatch({ control, name: 'basePrice' });
     const advancePayed = useWatch({ control, name: 'advancePayed' });
     const discountedPrice = useWatch({ control, name: 'discountedPrice' });
@@ -113,12 +113,12 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
         // Add price mode and prices
         data.priceMode = priceMode
         data.range = range
-        data.advancePayed = advancePayed||0
+        data.advancePayed = advancePayed || 0
         data.basePrice = basePrice || 0
         data.discountedPrice = discountedPrice || 0
         data.extraGuestPrice = extraGuestPrice || 0
         data.childPrice = childPrice || 0
-        data.priceToBePaid = priceToBePaid ||0
+        data.priceToBePaid = priceToBePaid || 0
         const formData = new FormData()
         for (var key in data) {
             formData.append(key, data[key]);
@@ -192,11 +192,11 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
                 priceMode: priceMode,
                 basePrice: basePrice || 0,
                 discountedPrice: discountedPrice || 0,
-                advancePayed : advancePayed||0,
+                advancePayed: advancePayed || 0,
                 extraGuestPrice: extraGuestPrice || 0,
                 childPrice: childPrice || 0,
                 range: range,
-                priceToBePaid : priceToBePaid||0
+                priceToBePaid: priceToBePaid || 0
             }
             const formData = new FormData()
             for (var key in data) {
@@ -221,7 +221,7 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
         if (selectedDates.checkIn && selectedDates.checkOut && Object.keys(guests).length == 3) {
             fetchPrices(selectedDates, addons, guests, coupon)
         }
-    }, [selectedDates, addons, guests, coupon, setPriceMessage, selectedVilla, selectedUser, directDiscount, basePrice, discountedPrice, childPrice, extraGuestPrice, priceMode])
+    }, [selectedDates, addons, guests, coupon, setPriceMessage, selectedVilla, selectedUser, directDiscount, basePrice, discountedPrice, childPrice, advancePayed, extraGuestPrice, priceMode])
 
 
     return (
@@ -309,10 +309,7 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
                                     />
                                     <Input type='text' name='basePrice' register={register} label='Base price' validationOptions={{ required: 'Base price is required' }} placeholder='Ex: 1999' className='mb-3' />
                                     {errors.basePrice && <Error error={errors.basePrice.message} className='mb-3 py-1 text-base' />}
-                                    {range == "pre" && <>
-                                        <Input type='number' name='advancePayed' register={register} label='Advance paid' validationOptions={{ required: 'Advance Payment is Required' }} placeholder='Ex: 1999' className='mb-3' />
-                                        </>
-                                    }
+
                                     <Input type='number' name='discountedPrice' optional={true} register={register} label='Discounted price' validationOptions={{ validate: (value) => (value && Number(value) >= Number(basePrice)) ? 'Discounted price should not be higher or equal to base price' : true }} placeholder='Ex: 1999' className='mb-3' />
                                     {Number(villa.maxGuest) > Number(villa.minGuest) &&
                                         <Input type='number' name='extraGuestPrice' register={register} label='Extra guest price' placeholder='Ex: 0 or 599' className='mb-3' />
@@ -394,7 +391,7 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
                                                     </components.Option>
                                                 );
                                             }
-                                            
+
                                         }}
                                     />
                                 }}
@@ -513,6 +510,7 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
                                                     ))}
                                                 </>
                                             }
+
                                             {price.directDiscount.directDiscount > 0 &&
                                                 <>
                                                     <TitleDevider title='Direct discounts' />
@@ -522,13 +520,24 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
                                                     </div>
                                                 </>
                                             }
+
                                             <TitleDevider title='Total' />
+                                            <div className='flex flex-row justify-between w-full justify-items-end'>
+                                                <p className='text-base  font-medium text-black-500 dark:text-white'>Total</p>
+                                                <p className='text-lg  text-black-500 dark:text-white font-bold'>{settings.website.currencySymbol} {Number(price.priceToBePaid.full)  +(Number(advancePayed)||0)}</p>
+                                            </div>
+                                            {range == "pre" && (
+                                                <div className='flex flex-row justify-between w-full justify-items-end'>
+                                                    <p className='text-base  font-medium text-black-500 dark:text-white'>Advance Paid</p>
+                                                    <p className='text-lg  text-black-500 dark:text-white font-bold'>{settings.website.currencySymbol} {advancePayed||0}</p>
+                                                </div>
+                                            )}
                                             <div className="flex items-center gap-3 justify-between">
                                                 <div className="flex flex-col">
-                                                    <p className='text-base font-medium text-black-500 dark:text-white'>Price to be paid</p>
+                                                    <p className='text-base font-medium text-black-500 dark:text-white'>Price to be paid <br/> <p className='text-xs'>(Total - Advance Paid) </p></p>
                                                     <p className='text-sm text-black-300 dark:text-black-200'>For {price.totalNights} Night{Number(price.totalNights) > 1 ? 's' : ''} and {guests.adults + guests.childs} guest{guests.adults + guests.childs > 1 ? 's' : ''}</p>
                                                 </div>
-                                                <p className='text-lg text-black-500 dark:text-white font-bold'>{settings.website.currencySymbol} {price.priceToBePaid.full}</p>
+                                                <p className='text-lg text-black-500 dark:text-white font-bold'>{settings.website.currencySymbol} {price.priceToBePaid.full < 0 ? 0 : price.priceToBePaid.full}</p>
                                             </div>
                                             <div className="flex items-center gap-3 justify-between">
                                                 <p className='text-sm text-black-500 dark:text-white'>Min. Price to be paid</p>
@@ -536,6 +545,10 @@ const AddVillaBooking = ({ addVillaBookingDrawer, setAddVillaBookingDrawer, addM
                                             </div>
                                         </div>
                                     </div>
+                                    {range == "pre" && <>
+                                        <Input type='number' name='advancePayed' register={register} label='Advance paid' validationOptions={{ required: 'Advance Payment is Required' }} placeholder='Ex: 1999' className='mb-3' />
+                                    </>
+                                    }
                                     <TitleDevider title='Direct discount' className='mb-3' />
                                     <div className="flex flex-col mb-3 bg-black-500 from-primary-500/80 to-secondary-500 border px-3 py-2 rounded-md">
                                         <p className="text-sm font-normal text-white mb-2">Want to apply direct discount?</p>

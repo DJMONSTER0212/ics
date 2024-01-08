@@ -69,12 +69,24 @@ const Payments = ({ settings }) => {
             disableSortBy: true,
         },
         {
-            Header: 'Price',
+            Header: 'Total',
             accessor: 'range',
             Cell: ({ value, row }) => {
                 return <div className="flex flex-col items-start gap-x-2 gap-y-1">
                     <p className="text-xs bg-gray-300 dark:bg-black-400/40 px-1 py-0.5 rounded-sm text-black-500 dark:text-white">{value.charAt(0).toUpperCase() + value.slice(1)} payment</p>
                     <h2 className="text-sm font-medium text-gray-800 dark:text-white flex gap-2 items-center">{settings.website.currencySymbol} {row.original.price}</h2>
+                </div>
+            },
+            disableSortBy: true,
+        },
+        {
+            Header: 'Paid',
+            accessor: 'temp',
+            Cell: ({ value, row }) => {
+                console.log(row.original)
+                return <div className="flex flex-col items-start gap-x-2 gap-y-1">
+                    <p className="text-xs bg-gray-300 dark:bg-black-400/40 px-1 py-0.5 rounded-sm text-black-500 dark:text-white">Paid</p>
+                    <h2 className="text-sm font-medium text-gray-800 dark:text-white flex gap-2 items-center">{settings.website.currencySymbol} {row.original.advancePaid || 0}</h2>
                 </div>
             },
             disableSortBy: true,

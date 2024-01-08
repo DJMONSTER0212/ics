@@ -1,29 +1,17 @@
 import ICAL from "ical.js"
 
-const createICSLink = async (icsArray) => {
+const createICSLink = async (icsContent) => {
+
     try {
-        const jcalData = ICAL.Component.fromString('BEGIN:VCALENDAR\nVERSION:2.0\nEND:VCALENDAR');
+        const jcalData = ICAL.parse(icsContent);
+        const comp = new ICAL.Component(jcalData);
+        const icalLink = `data:text/calendar;charset=utf-8,${encodeURIComponent(comp.toString())}`;
 
-        icsArray.forEach((icsContent) => {
-            // Parse the ICS content
-            // const jcalComponent = ICAL.Component.fromString(icsContent);
-            // const jcalComponent = ICAL.Component.fromJSON(ICAL.parse(icsContent));
-            const jcalComponent = ICAL.Component.fromString(icsContent);
+        // console.log('iCal link:', icalLink);
 
-            // Add the parsed component to the main calendar
-            jcalData.addSubcomponent(jcalComponent);
-        });
-        // Convert the jCal object to a string
-        const icsString = jcalData.toString();
-
-        const dataUri = `data:text/calendar;charset=utf-8,${encodeURIComponent(icsString)}`;
-
-        return dataUri;
     } catch (error) {
         console.log(error)
-        return null;
     }
-
 
 }
 

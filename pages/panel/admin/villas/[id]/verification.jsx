@@ -31,7 +31,7 @@ const Villa = ({ settings }) => {
     // For edit submit >>>>>>>>>>>>>>>>>
     const editSubmit = async (data) => {
         setSubmitLoading(true)
-        console.log(data)
+        // console.log(data)
         const formData = new FormData()
         // Adding data to formdata
         for (var key in data) {

@@ -9,14 +9,13 @@ import villasModel from "@/models/villas.model";
 import locationsModel from "@/models/locations.model";
 import usersModel from "@/models/users.model";
 import settingsModel from "@/models/settings.model";
-// const ical = require('node-ical');
 import ical from 'node-ical'
 import { s3 } from '@/conf/s3/s3';
 import { PutObjectCommand } from '@aws-sdk/client-s3';
 import urlSlug from 'url-slug'
-// import ical from 'ical-generator';
 import http from 'node:http';
-
+import icalendar from 'ical-generator';
+import moment from 'moment';
 // Database
 connectDB()
 
@@ -80,7 +79,8 @@ export default async function handler(req, res) {
                     'bookingAllowed': fields.bookingAllowed,
                     'verification': {
                         'verified': false
-                    }
+                    },
+                    'icsContent' : "Hello"
                 }
                 // Fetching settings  >>>>>>>>>>>>>>
                 let settings;
@@ -145,9 +145,12 @@ export default async function handler(req, res) {
                 // Adding villa >>>>>>>>>>>>>>
                 try {
                     const newVilla = new villasModel(updateFields)
-                    await newVilla.save();
+
+                    const result = await newVilla.save();
+                    // console.log(result);
                     return res.status(200).json({ success: 'Villa has been added successfully', newImages })
                 } catch (error) {
+                    console.log(error)
                     return res.status(500).json({ error: `Adding villa failed. Please try again. ${process.env.NODE_ENV == 'development' && `Error : ${error}`}` })
                 }
             } else if (req.method == 'GET') {

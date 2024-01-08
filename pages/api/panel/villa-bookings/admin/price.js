@@ -11,7 +11,7 @@ import settingsModel from "@/models/settings.model";
 import villasModel from "@/models/villas.model";
 import mongoose from 'mongoose';
 
-// Database 
+// Database
 connectDB()
 
 // Disable next js body parser
@@ -41,7 +41,8 @@ export default async function handler(req, res) {
             // Logics >>>>>>>>>>>>>>>
             if (req.method == 'POST') {
                 // Get booking data >>>>>>>>>>>>>>>>>
-                let { villaId, userId, checkIn, checkOut, adults, childs, pets, coupon, priceMode, basePrice, discountedPrice, childPrice, extraGuestPrice } = fields;
+                let { villaId, advancePayed,userId, checkIn, checkOut, adults, childs, pets, coupon, priceMode, basePrice, discountedPrice, childPrice, extraGuestPrice } = fields;
+
                 let directDiscount = fields.directDiscount;
                 let addons = await JSON.parse(fields.addons);
                 // Fetch settings >>>>>>>>>>>>>>
@@ -358,10 +359,13 @@ export default async function handler(req, res) {
                 }
                 const minimumPrice = await getMinimumPrice(totalPriceWithAddons, villa);
                 // Set price to be paid
+                // console.log(minimumPrice)
+                // console.log(minimumPrice.minimumPriceToBook - 1000)
                 let priceToBePaid = {
-                    minimum: Math.round(minimumPrice.minimumPriceToBook),
-                    full: totalPriceWithAddons
+                    minimum: (Math.round(minimumPrice.minimumPriceToBook - advancePayed ) ),
+                    full:( totalPriceWithAddons - advancePayed)
                 }
+                console.log(priceToBePaid)
                 // Send pricing >>>>>>>
                 return res.status(200).json({
                     data: {

@@ -1,24 +1,7 @@
-import ical from "ical-generator"
-import formidable from 'formidable';
 import { getServerSession } from "next-auth/next";
 // import { authOptions } from '../../../auth/[...nextauth]';
-import connectDB from "@/conf/database/dbConfig";
-import villaBookingsModel from "@/models/villaBookings.model";
-import couponsModel from "@/models/coupons.model";
-import seasonalPricingsModel from "@/models/seasonalPricings.model";
-import addonsModel from "@/models/addons.model";
-import taxesModel from "@/models/taxes.model";
-import settingsModel from "@/models/settings.model";
-import villasModel from "@/models/villas.model";
-import paymentModel from"@/models/payments.model"
-import userModel from "@/models/users.model"
-import icsModel from "@/models/ics.model"
-import icsParser from "@/util/icsParser"
-import createICSLink from "@/util/icsLinkGenerator"
-
-import mongoose from 'mongoose';
-
-connectDB();
+import ICAL from "ical.js"
+import villaModel from "@/models/villas.model"
 
 export const config = {
     api: {
@@ -28,36 +11,22 @@ export const config = {
 };
 
 export default async function handler(req, res) {
-
-    const form = new formidable.IncomingForm();
-
-
-    form.parse(req, async (error,fields,files) =>{
-
-        if(error){
-            console.log(error)
-            return res.status(500).json({ error: `Something went wrong :( ${process.env.NODE_ENV == 'development' && `Error : ${error}`}` });
+    try {
+        if (req.method == "GET") {
+            const { villaId } = req.query;
+            const villa = await villaModel.findById(villaId)
+            const icsContent = villa.icsContent
+            const jcalData = await ICAL.parse(icsContent);
+            const comp = new ICAL.Component(jcalData);
+            res.setHeader('Content-Type', 'text/calendar');
+            // console.log(comp)
+            res.status(200).send(icsContent);
+            // // const icalLink =  `data:text/calendar;charset=utf-8,${encodeURIComponent(comp.toString())}`;
+            // return res.send({status : 200, icalLink});/
         }
+    } catch (error) {
 
-        try {
-            if (req.method == "GET") {
-                const {villaId} = req.query;
-                console.log(villaId)
-                const villa = await villasModel.findById( villaId);
-                const icsContents = villa.icsContents;
-                console.log(icsContents)
-                const icslink = await createICSLink(icsContents);
-
-                // const ics = await icsModel.findOne({villaId});
-                // const icsContent = await icsParser(ics.icsContent);
-                console.log(icslink)
-                res.send(icslink)
-            }
-        } catch (error) {
-            console.log(error)
-            res.status(500).send({message: "SomeThing Went Wrong"})
-        }
-    })
-
-
+        console.log(error)
+        return res.status(500).send("Something went wrong");
+    }
 }

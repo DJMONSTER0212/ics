@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     const ical = require('ical');
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const data = ical.parseICS('/listing-39378614.ics');
-    console.log(data)
+    // console.log(data)
     try {
         // Logics
         if (req.method == 'GET') {

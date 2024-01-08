@@ -70,7 +70,14 @@ const villasSchema = new Schema({
     villaDetails: [{ type: String, required: true, default: [] }], // 3 Rooms, 1 Bedroom, 1 Kitchen
     amenities: [{ type: Schema.Types.ObjectId, ref: 'amenities', required: true, default: [] }],
     icalLinks: [{ type: String, required: true, default: [] }],
-    icsContents : [{type : String, required: true ,default: []}],
+    icsContent : {
+        type : String,
+        default: "",
+        required : true,
+    },
+    // events: [{start : Date, end : Date, summary : String,description : String, url:String , default :[]}],
+    events :[{start : {type : Date},end : {type : Date}, summary : {type : String}, description : {type: String}, url : {type : String}, default : []}],
+    // icsContents : [{type : String, required: true ,default: []}],
     hostInfo: {
         name: {
             type: String,
