@@ -2,7 +2,7 @@
 const axios = require('axios');
 import ical from 'ical.js';
 import villasmodel from "@/models/villas.model"
-
+import paymentsModel from "@/models/payments.model";
 
 export const config = {
     api: {
@@ -49,12 +49,27 @@ export const config = {
 export default async function handler(req, res) {
     try {
         if (req.method == "GET") {
-            const villaId = "64fc30d7c46bd2c4a529105e";
-            const villa = await villasmodel.findById(villaId);
-            console.log(villa)
-            const iCalData = villa.icsContent;
-            res.setHeader('Content-Type', 'text/calendar');
-            res.status(200).send(iCalData);
+            // const villaId = "64fc30d7c46bd2c4a529105e";
+            // const villa = await villasmodel.findById(villaId);
+            // console.log(villa)
+            // const iCalData = villa.icsContent;
+            // res.setHeader('Content-Type', 'text/calendar');
+            // res.status(200).send(iCalData);
+            const payments = await paymentsModel.find({})
+            console.log(payments)
+            const currYear = new Date().getFullYear();
+            const temp = [0,0,0,0,0,0,0,0,0,0,0,0]
+            for ( let i in payments){
+                if(payments[i]?.paymentDate?.getFullYear() == currYear){
+                    const month = payments[i]?.paymentDate?.getMonth();
+                    if(month>=0){
+                        temp[month]+= parseFloat(payments[i]?.advancePaid)
+                    }
+                }
+                // console.log(payments[i]?.paymentDate?.getMonth())
+            }
+            console.log(temp)
+            res.status(200).send(payments)
         }
     } catch (error) {
         console.log(error)

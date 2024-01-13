@@ -18,6 +18,10 @@ import 'react-toastify/dist/ReactToastify.css';
 const Villa = ({ settings }) => {
     const { data: session, status } = useSession(); // Next auth
     const router = useRouter();
+    const {
+        asPath,        // the value: "/question/how-do-you-get-the-current-url-in-nextjs/"
+        pathname,   // the value: "/question/[slug]"
+    } = useRouter();
     const [globalMessage, setGlobalMessage] = useState({ message: '', type: '' })
     const [loading, setLoading] = useState(true)
     const [villa, setVilla] = useState({})
@@ -57,9 +61,10 @@ const Villa = ({ settings }) => {
             setLoading(true)
             const response = await fetch(`/api/panel/villas/admin/${id}/ical`);
             const responseData = await response.json();
-            const temp = await fetch(`/api/ical/${id}`, { method: "GET" })
-            const t1 = await temp.json();
-            setMyIcal(t1.icalLink)
+            // console.log(asPath, pathname)
+            const base_url = process.env.NEXT_PUBLIC_BASE_URI;
+
+            setMyIcal(`${base_url}api/ical/${id}`)
             if (responseData.data) {
                 setVilla(responseData.data)  // Set data in villa
                 // Convert iCal links in react select form
@@ -187,6 +192,9 @@ const Villa = ({ settings }) => {
                             </form>
                             <h4 className='mt-2'>Your Ical Link</h4>
                             <hr />
+                            <div className='my-1 p-2 pl-3 border-indigo-700'>
+                                <p>{myIcal}</p>
+                            </div>
                             <button className='px-6 py-2.5 text-white bg-primary-500 hover:bg-primary-600 dark:bg-primary-400 dark:hover:bg-primary-500 w-full rounded-md text-lg ' type={"button"} onClick={onCopy} variant='primary' label='Click here to copy your link' >Click here to copy Your link</button>
                         </div>
                     </>

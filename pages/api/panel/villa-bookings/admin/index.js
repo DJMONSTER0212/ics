@@ -492,8 +492,8 @@ export default async function handler(req, res) {
                         const { _id } = result._id;
                         // console.log(_id)
                         const date = new Date();
-                        // console.log(date)
-                        console.log(advancePayed)
+                        console.log(date)
+                        // console.log(advancePayed)
                         if(range=="full"){
                             advancePayed = priceToBePaid.minimum
                         }
@@ -507,7 +507,7 @@ export default async function handler(req, res) {
                                 villaId,
                                 villaBookingId: _id,
                                 range,
-                                paymentDate: date.getDate(),
+                                paymentDate: date,
                                 status: range === "full" ? "successful" : "pending",
                                 price: priceToBePaid.minimum,
                                 advancePaid : advancePayed
