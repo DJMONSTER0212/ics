@@ -177,7 +177,7 @@ const Index = () => {
                 <div className="mt-0">
                     <h2 className={`text-base font-semibold text-black-500 dark:text-white flex gap-2 items-center line-clamp-1`}>Today{"'"}s guests</h2>
                     <div className="mt-3 grid gap-2 grid-cols-1 max-h-[65vh] overflow-auto bg-primary-100/50 dark:bg-primary-100/20 rounded-md w-full p-2">
-                        {todaysGuest.map((guest) => (
+                        {todaysGuest.length== 0? <p className="bg-white/90 dark:bg-black-500/20 py-1.5 px-2 cursor-pointer hover:bg-white/50 dark:hover:bg-black-500/40 rounded-md">No Guests For Today</p>:todaysGuest.map((guest) => (
                             <div key={guest._id} className="bg-white/90 dark:bg-black-500/20 py-1.5 px-2 cursor-pointer hover:bg-white/50 dark:hover:bg-black-500/40 rounded-md">
                                 <div className="flex flex-col xs:flex-row md:flex-col lg:flex-row xs:items-center md:items-start gap-x-2 xs:justify-between">
                                     <div className="flex gap-2">
